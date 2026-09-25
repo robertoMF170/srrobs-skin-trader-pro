@@ -1,0 +1,52 @@
+{% extends "base.html" %}
+{% block title %}Itens — {{ APP_NAME }}{% endblock %}
+{% block content %}
+
+<section class="panel">
+  <form class="form-add" method="get" action="{{ url_for('items_page') }}">
+    <input type="search" name="q" value="{{ q }}" placeholder="Procurar skin (ex.: Redline, Dragon Lore, Prisma)" class="grow">
+    <button class="btn-buy" type="submit">Procurar</button>
+  </form>
+</section>
+
+<section>
+  <div class="table-wrap">
+    <table class="tbl">
+      <thead>
+        <tr>
+          <th>Item</th><th>Raridade</th><th>Coleção</th><th>Float range</th>
+          <th class="num">Melhor preço</th><th>Fontes</th><th></th>
+        </tr>
+      </thead>
+      <tbody>
+        {% for it in items %}
+        {% set r = it.row %}
+        <tr>
+          <td data-label="Item">{{ r.market_hash_name }}</td>
+          <td data-label="Raridade"><span class="rarity rarity-{{ r.rarity|lower|replace(' ','-') }}">{{ r.rarity }}</span></td>
+          <td data-label="Coleção">{{ r.collection or '—' }}</td>
+          <td data-label="Float" class="mono">{{ '%.3f'|format(r.wear_min) }}–{{ '%.3f'|format(r.wear_max) }}</td>
+          <td data-label="Melhor preço" class="num">{% if it.best_price %}{{ money(it.best_price) }}{% else %}—{% endif %}</td>
+          <td data-label="Fontes">
+            {% for src, info in it.sources.items() %}
+            <span class="src" title="{{ info.observed_at }}">{{ src }} {{ info.price|round(2) }}</span>
+            {% endfor %}
+          </td>
+          <td>
+            {% if it.best_source %}
+            <a class="btn-buy" href="{{ buy_link(it.best_source, r.market_hash_name) }}" target="_blank" rel="noopener noreferrer">Comprar</a>
+            {% endif %}
+            {% if LMSTUDIO_ENABLED %}
+            <button class="btn tiny ai-btn" data-name="{{ r.market_hash_name }}">IA ↗</button>
+            {% endif %}
+          </td>
+        </tr>
+        {% else %}
+        <tr><td colspan="7" class="empty">{% if q %}Sem resultados para “{{ q }}”.{% else %}Sem itens na base de dados — corre <code>python -m data.importer</code>.{% endif %}</td></tr>
+        {% endfor %}
+      </tbody>
+    </table>
+  </div>
+</section>
+
+{% endblock %}

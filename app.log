@@ -1,0 +1,833 @@
+{"ts":"2026-09-15 23:05:33,447","level":"INFO","logger":"scheduler","msg":"scheduler iniciado: ['positions', 'compute', 'csfloat', 'dmarket', 'skinport', 'steam', 'steam_history', 'import_items']"}
+ * Serving Flask app 'app'
+ * Debug mode: off
+{"ts":"2026-09-15 23:05:33,456","level":"INFO","logger":"werkzeug","msg":"[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.183:5000"}
+{"ts":"2026-09-15 23:05:33,456","level":"INFO","logger":"werkzeug","msg":"[33mPress CTRL+C to quit[0m"}
+{"ts":"2026-09-15 23:06:20,144","level":"INFO","logger":"werkzeug","msg":"127.0.0.1 - - [15/Sep/2026 23:06:20] "GET /health HTTP/1.1" 200 -"}
+{"ts":"2026-09-15 23:06:30,155","level":"INFO","logger":"werkzeug","msg":"127.0.0.1 - - [15/Sep/2026 23:06:30] "GET / HTTP/1.1" 200 -"}
+{"ts":"2026-09-15 23:06:30,228","level":"INFO","logger":"werkzeug","msg":"127.0.0.1 - - [15/Sep/2026 23:06:30] "GET /static/css/theme.css HTTP/1.1" 200 -"}
+{"ts":"2026-09-15 23:06:30,239","level":"INFO","logger":"werkzeug","msg":"127.0.0.1 - - [15/Sep/2026 23:06:30] "GET /static/js/app.js HTTP/1.1" 200 -"}
+{"ts":"2026-09-15 23:06:30,598","level":"INFO","logger":"werkzeug","msg":"127.0.0.1 - - [15/Sep/2026 23:06:30] "GET / HTTP/1.1" 200 -"}
+{"ts":"2026-09-15 23:06:30,617","level":"INFO","logger":"werkzeug","msg":"127.0.0.1 - - [15/Sep/2026 23:06:30] "[36mGET /static/css/theme.css HTTP/1.1[0m" 304 -"}
+{"ts":"2026-09-15 23:06:30,620","level":"INFO","logger":"werkzeug","msg":"127.0.0.1 - - [15/Sep/2026 23:06:30] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -"}
+{"ts":"2026-09-15 23:06:44,654","level":"INFO","logger":"werkzeug","msg":"127.0.0.1 - - [15/Sep/2026 23:06:44] "GET /api/opportunities?kind=resale&limit=3 HTTP/1.1" 200 -"}
+{"ts":"2026-09-15 23:08:44,165","level":"INFO","logger":"werkzeug","msg":"127.0.0.1 - - [15/Sep/2026 23:08:44] "GET /api/opportunities?kind=resale&limit=3 HTTP/1.1" 200 -"}
+{"ts":"2026-09-15 23:09:30,443","level":"INFO","logger":"scheduler","msg":"scheduler iniciado: ['positions', 'compute', 'csfloat', 'dmarket', 'skinport', 'steam', 'steam_history', 'import_items']"}
+ * Serving Flask app 'app'
+ * Debug mode: off
+{"ts":"2026-09-15 23:09:30,453","level":"INFO","logger":"werkzeug","msg":"[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.183:5000"}
+{"ts":"2026-09-15 23:09:30,454","level":"INFO","logger":"werkzeug","msg":"[33mPress CTRL+C to quit[0m"}
+{"ts":"2026-09-15 23:09:36,669","level":"INFO","logger":"werkzeug","msg":"127.0.0.1 - - [15/Sep/2026 23:09:36] "GET /health HTTP/1.1" 200 -"}
+{"ts":"2026-09-15 23:10:37,590","level":"INFO","logger":"werkzeug","msg":"127.0.0.1 - - [15/Sep/2026 23:10:37] "GET /health HTTP/1.1" 200 -"}
+{"ts":"2026-09-15 23:10:37,699","level":"INFO","logger":"werkzeug","msg":"127.0.0.1 - - [15/Sep/2026 23:10:37] "GET /api/opportunities?kind=resale&limit=3 HTTP/1.1" 200 -"}
+{"ts":"2026-09-15 23:10:43,807","level":"INFO","logger":"werkzeug","msg":"127.0.0.1 - - [15/Sep/2026 23:10:43] "GET / HTTP/1.1" 200 -"}
+{"ts":"2026-09-15 23:10:43,898","level":"INFO","logger":"werkzeug","msg":"127.0.0.1 - - [15/Sep/2026 23:10:43] "GET /static/css/theme.css HTTP/1.1" 200 -"}
+{"ts":"2026-09-15 23:10:43,901","level":"INFO","logger":"werkzeug","msg":"127.0.0.1 - - [15/Sep/2026 23:10:43] "GET /static/js/app.js HTTP/1.1" 200 -"}
+{"ts":"2026-09-15 23:10:44,327","level":"INFO","logger":"werkzeug","msg":"127.0.0.1 - - [15/Sep/2026 23:10:44] "GET / HTTP/1.1" 200 -"}
+{"ts":"2026-09-15 23:10:44,340","level":"INFO","logger":"werkzeug","msg":"127.0.0.1 - - [15/Sep/2026 23:10:44] "[36mGET /static/css/theme.css HTTP/1.1[0m" 304 -"}
+{"ts":"2026-09-15 23:10:44,389","level":"INFO","logger":"werkzeug","msg":"127.0.0.1 - - [15/Sep/2026 23:10:44] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -"}
+{"ts":"2026-09-15 23:11:59,656","level":"INFO","logger":"scheduler","msg":"scheduler iniciado: ['positions', 'compute', 'csfloat', 'dmarket', 'skinport', 'steam', 'steam_history', 'import_items']"}
+ * Serving Flask app 'app'
+ * Debug mode: off
+{"ts":"2026-09-15 23:11:59,667","level":"INFO","logger":"werkzeug","msg":"[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.183:5000"}
+{"ts":"2026-09-15 23:11:59,667","level":"INFO","logger":"werkzeug","msg":"[33mPress CTRL+C to quit[0m"}
+{"ts":"2026-09-15 23:12:05,245","level":"INFO","logger":"werkzeug","msg":"127.0.0.1 - - [15/Sep/2026 23:12:05] "GET /health HTTP/1.1" 200 -"}
+{"ts":"2026-09-15 23:14:07,499","level":"INFO","logger":"scheduler","msg":"scheduler iniciado: ['positions', 'compute', 'csfloat', 'dmarket', 'skinport', 'steam', 'steam_history', 'import_items']"}
+ * Serving Flask app 'app'
+ * Debug mode: off
+{"ts":"2026-09-15 23:14:07,508","level":"INFO","logger":"werkzeug","msg":"[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.183:5000"}
+{"ts":"2026-09-15 23:14:07,508","level":"INFO","logger":"werkzeug","msg":"[33mPress CTRL+C to quit[0m"}
+{"ts":"2026-09-15 23:15:11,259","level":"INFO","logger":"werkzeug","msg":"127.0.0.1 - - [15/Sep/2026 23:15:11] "GET /health HTTP/1.1" 200 -"}
+{"ts":"2026-09-15 23:15:22,451","level":"INFO","logger":"werkzeug","msg":"127.0.0.1 - - [15/Sep/2026 23:15:22] "GET / HTTP/1.1" 200 -"}
+{"ts":"2026-09-15 23:15:22,536","level":"INFO","logger":"werkzeug","msg":"127.0.0.1 - - [15/Sep/2026 23:15:22] "GET /static/css/theme.css HTTP/1.1" 200 -"}
+{"ts":"2026-09-15 23:15:22,542","level":"INFO","logger":"werkzeug","msg":"127.0.0.1 - - [15/Sep/2026 23:15:22] "GET /static/js/app.js HTTP/1.1" 200 -"}
+{"ts":"2026-09-15 23:15:22,983","level":"INFO","logger":"werkzeug","msg":"127.0.0.1 - - [15/Sep/2026 23:15:22] "GET /?tab=resale&max_cost=3 HTTP/1.1" 200 -"}
+{"ts":"2026-09-15 23:15:23,010","level":"INFO","logger":"werkzeug","msg":"127.0.0.1 - - [15/Sep/2026 23:15:23] "[36mGET /static/css/theme.css HTTP/1.1[0m" 304 -"}
+{"ts":"2026-09-15 23:15:23,019","level":"INFO","logger":"werkzeug","msg":"127.0.0.1 - - [15/Sep/2026 23:15:23] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -"}
+{"ts":"2026-09-15 23:15:24,220","level":"INFO","logger":"werkzeug","msg":"127.0.0.1 - - [15/Sep/2026 23:15:24] "GET /?max_cost=100&tab=resale HTTP/1.1" 200 -"}
+{"ts":"2026-09-15 23:15:24,241","level":"INFO","logger":"werkzeug","msg":"127.0.0.1 - - [15/Sep/2026 23:15:24] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -"}
+{"ts":"2026-09-15 23:15:24,250","level":"INFO","logger":"werkzeug","msg":"127.0.0.1 - - [15/Sep/2026 23:15:24] "[36mGET /static/css/theme.css HTTP/1.1[0m" 304 -"}
+{"ts":"2026-09-15 23:15:59,113","level":"INFO","logger":"werkzeug","msg":"192.168.1.183 - - [15/Sep/2026 23:15:59] "GET / HTTP/1.1" 200 -"}
+{"ts":"2026-09-15 23:15:59,145","level":"INFO","logger":"werkzeug","msg":"192.168.1.183 - - [15/Sep/2026 23:15:59] "GET /static/css/theme.css HTTP/1.1" 200 -"}
+{"ts":"2026-09-15 23:15:59,206","level":"INFO","logger":"werkzeug","msg":"192.168.1.183 - - [15/Sep/2026 23:15:59] "[36mGET /static/css/theme.css HTTP/1.1[0m" 304 -"}
+{"ts":"2026-09-15 23:15:59,303","level":"INFO","logger":"werkzeug","msg":"192.168.1.183 - - [15/Sep/2026 23:15:59] "GET /static/js/app.js HTTP/1.1" 200 -"}
+{"ts":"2026-09-15 23:21:23,008","level":"INFO","logger":"werkzeug","msg":"192.168.1.183 - - [15/Sep/2026 23:21:23] "GET /?max_cost=25&tab=resale HTTP/1.1" 200 -"}
+{"ts":"2026-09-15 23:21:23,044","level":"INFO","logger":"werkzeug","msg":"192.168.1.183 - - [15/Sep/2026 23:21:23] "[36mGET /static/css/theme.css HTTP/1.1[0m" 304 -"}
+{"ts":"2026-09-15 23:21:23,119","level":"INFO","logger":"werkzeug","msg":"192.168.1.183 - - [15/Sep/2026 23:21:23] "[36mGET /static/css/theme.css HTTP/1.1[0m" 304 -"}
+{"ts":"2026-09-15 23:21:23,214","level":"INFO","logger":"werkzeug","msg":"192.168.1.183 - - [15/Sep/2026 23:21:23] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -"}
+{"ts":"2026-09-15 23:22:44,597","level":"INFO","logger":"werkzeug","msg":"192.168.1.183 - - [15/Sep/2026 23:22:44] "GET /?max_cost=2 HTTP/1.1" 200 -"}
+{"ts":"2026-09-15 23:22:44,638","level":"INFO","logger":"werkzeug","msg":"192.168.1.183 - - [15/Sep/2026 23:22:44] "[36mGET /static/css/theme.css HTTP/1.1[0m" 304 -"}
+{"ts":"2026-09-15 23:22:44,653","level":"INFO","logger":"werkzeug","msg":"192.168.1.183 - - [15/Sep/2026 23:22:44] "[36mGET /static/css/theme.css HTTP/1.1[0m" 304 -"}
+{"ts":"2026-09-15 23:22:44,748","level":"INFO","logger":"werkzeug","msg":"192.168.1.183 - - [15/Sep/2026 23:22:44] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -"}
+{"ts":"2026-09-15 23:23:35,797","level":"INFO","logger":"werkzeug","msg":"192.168.1.183 - - [15/Sep/2026 23:23:35] "GET /?max_cost=2 HTTP/1.1" 200 -"}
+{"ts":"2026-09-15 23:23:35,829","level":"INFO","logger":"werkzeug","msg":"192.168.1.183 - - [15/Sep/2026 23:23:35] "[36mGET /static/css/theme.css HTTP/1.1[0m" 304 -"}
+{"ts":"2026-09-15 23:23:35,911","level":"INFO","logger":"werkzeug","msg":"192.168.1.183 - - [15/Sep/2026 23:23:35] "[36mGET /static/css/theme.css HTTP/1.1[0m" 304 -"}
+{"ts":"2026-09-15 23:23:36,048","level":"INFO","logger":"werkzeug","msg":"192.168.1.183 - - [15/Sep/2026 23:23:36] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -"}
+{"ts":"2026-09-15 23:24:09,292","level":"INFO","logger":"engine.opportunities","msg":"oportunidades recalculadas {'tradeups': 3000, 'tradeups_profitable': 310, 'tradeups_robust': 0, 'resale': 7852, 'resale_profitable': 4166, 'resale_robust': 0}"}
+{"ts":"2026-09-15 23:27:45,068","level":"INFO","logger":"werkzeug","msg":"192.168.1.183 - - [15/Sep/2026 23:27:45] "GET /?max_cost=2 HTTP/1.1" 200 -"}
+{"ts":"2026-09-15 23:27:45,112","level":"INFO","logger":"werkzeug","msg":"192.168.1.183 - - [15/Sep/2026 23:27:45] "[36mGET /static/css/theme.css HTTP/1.1[0m" 304 -"}
+{"ts":"2026-09-15 23:27:45,170","level":"INFO","logger":"werkzeug","msg":"192.168.1.183 - - [15/Sep/2026 23:27:45] "[36mGET /static/css/theme.css HTTP/1.1[0m" 304 -"}
+{"ts":"2026-09-15 23:27:45,287","level":"INFO","logger":"werkzeug","msg":"192.168.1.183 - - [15/Sep/2026 23:27:45] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -"}
+{"ts":"2026-09-15 23:29:07,525","level":"WARNING","logger":"collectors.dmarket","msg":"source=dmarket chaves de API não configuradas"}
+{"ts":"2026-09-15 23:29:07,525","level":"WARNING","logger":"collectors.dmarket","msg":"source=dmarket chaves de API não configuradas"}
+{"ts":"2026-09-15 23:29:07,525","level":"WARNING","logger":"collectors.dmarket","msg":"source=dmarket chaves de API não configuradas"}
+{"ts":"2026-09-15 23:29:07,525","level":"WARNING","logger":"collectors.dmarket","msg":"source=dmarket chaves de API não configuradas"}
+{"ts":"2026-09-15 23:29:07,525","level":"WARNING","logger":"collectors.dmarket","msg":"source=dmarket chaves de API não configuradas"}
+{"ts":"2026-09-15 23:29:07,525","level":"WARNING","logger":"collectors.dmarket","msg":"source=dmarket chaves de API não configuradas"}
+{"ts":"2026-09-15 23:29:07,525","level":"WARNING","logger":"collectors.dmarket","msg":"source=dmarket chaves de API não configuradas"}
+{"ts":"2026-09-15 23:29:07,525","level":"WARNING","logger":"collectors.dmarket","msg":"source=dmarket chaves de API não configuradas"}
+{"ts":"2026-09-15 23:29:07,525","level":"WARNING","logger":"collectors.dmarket","msg":"source=dmarket chaves de API não configuradas"}
+{"ts":"2026-09-15 23:29:07,525","level":"WARNING","logger":"collectors.dmarket","msg":"source=dmarket chaves de API não configuradas"}
+{"ts":"2026-09-15 23:29:07,525","level":"WARNING","logger":"collectors.dmarket","msg":"source=dmarket chaves de API não configuradas"}
+{"ts":"2026-09-15 23:29:07,525","level":"WARNING","logger":"collectors.dmarket","msg":"source=dmarket chaves de API não configuradas"}
+{"ts":"2026-09-15 23:29:07,525","level":"WARNING","logger":"collectors.dmarket","msg":"source=dmarket chaves de API não configuradas"}
+{"ts":"2026-09-15 23:29:07,525","level":"WARNING","logger":"collectors.dmarket","msg":"source=dmarket chaves de API não configuradas"}
+{"ts":"2026-09-15 23:29:07,525","level":"WARNING","logger":"collectors.dmarket","msg":"source=dmarket chaves de API não configuradas"}
+{"ts":"2026-09-15 23:29:07,526","level":"WARNING","logger":"collectors.dmarket","msg":"source=dmarket chaves de API não configuradas"}
+{"ts":"2026-09-15 23:29:07,526","level":"WARNING","logger":"collectors.dmarket","msg":"source=dmarket chaves de API não configuradas"}
+{"ts":"2026-09-15 23:29:07,526","level":"WARNING","logger":"collectors.dmarket","msg":"source=dmarket chaves de API não configuradas"}
+{"ts":"2026-09-15 23:29:07,526","level":"WARNING","logger":"collectors.dmarket","msg":"source=dmarket chaves de API não configuradas"}
+{"ts":"2026-09-15 23:29:07,526","level":"WARNING","logger":"collectors.dmarket","msg":"source=dmarket chaves de API não configuradas"}
+{"ts":"2026-09-15 23:29:07,526","level":"WARNING","logger":"collectors.dmarket","msg":"source=dmarket chaves de API não configuradas"}
+{"ts":"2026-09-15 23:29:07,526","level":"WARNING","logger":"collectors.dmarket","msg":"source=dmarket chaves de API não configuradas"}
+{"ts":"2026-09-15 23:29:07,526","level":"WARNING","logger":"collectors.dmarket","msg":"source=dmarket chaves de API não configuradas"}
+{"ts":"2026-09-15 23:29:07,526","level":"WARNING","logger":"collectors.dmarket","msg":"source=dmarket chaves de API não configuradas"}
+{"ts":"2026-09-15 23:29:07,526","level":"WARNING","logger":"collectors.dmarket","msg":"source=dmarket chaves de API não configuradas"}
+{"ts":"2026-09-15 23:29:07,526","level":"WARNING","logger":"collectors.dmarket","msg":"source=dmarket chaves de API não configuradas"}
+{"ts":"2026-09-15 23:29:07,526","level":"WARNING","logger":"collectors.dmarket","msg":"source=dmarket chaves de API não configuradas"}
+{"ts":"2026-09-15 23:29:07,526","level":"WARNING","logger":"collectors.dmarket","msg":"source=dmarket chaves de API não configuradas"}
+{"ts":"2026-09-15 23:29:07,526","level":"WARNING","logger":"collectors.dmarket","msg":"source=dmarket chaves de API não configuradas"}
+{"ts":"2026-09-15 23:29:07,526","level":"WARNING","logger":"collectors.dmarket","msg":"source=dmarket chaves de API não configuradas"}
+{"ts":"2026-09-15 23:29:07,526","level":"WARNING","logger":"collectors.dmarket","msg":"source=dmarket chaves de API não configuradas"}
+{"ts":"2026-09-15 23:29:07,526","level":"WARNING","logger":"collectors.dmarket","msg":"source=dmarket chaves de API não configuradas"}
+{"ts":"2026-09-15 23:29:07,526","level":"WARNING","logger":"collectors.dmarket","msg":"source=dmarket chaves de API não configuradas"}
+{"ts":"2026-09-15 23:29:07,526","level":"WARNING","logger":"collectors.dmarket","msg":"source=dmarket chaves de API não configuradas"}
+{"ts":"2026-09-15 23:29:07,526","level":"WARNING","logger":"collectors.dmarket","msg":"source=dmarket chaves de API não configuradas"}
+{"ts":"2026-09-15 23:29:07,526","level":"WARNING","logger":"collectors.dmarket","msg":"source=dmarket chaves de API não configuradas"}
+{"ts":"2026-09-15 23:29:07,526","level":"WARNING","logger":"collectors.dmarket","msg":"source=dmarket chaves de API não configuradas"}
+{"ts":"2026-09-15 23:29:07,526","level":"WARNING","logger":"collectors.dmarket","msg":"source=dmarket chaves de API não configuradas"}
+{"ts":"2026-09-15 23:29:07,526","level":"WARNING","logger":"collectors.dmarket","msg":"source=dmarket chaves de API não configuradas"}
+{"ts":"2026-09-15 23:29:07,526","level":"WARNING","logger":"collectors.dmarket","msg":"source=dmarket chaves de API não configuradas"}
+{"ts":"2026-09-15 23:29:07,526","level":"WARNING","logger":"collectors.dmarket","msg":"source=dmarket chaves de API não configuradas"}
+{"ts":"2026-09-15 23:29:07,528","level":"WARNING","logger":"collectors.dmarket","msg":"source=dmarket chaves de API não configuradas"}
+{"ts":"2026-09-15 23:29:07,528","level":"WARNING","logger":"collectors.dmarket","msg":"source=dmarket chaves de API não configuradas"}
+{"ts":"2026-09-15 23:29:07,528","level":"WARNING","logger":"collectors.dmarket","msg":"source=dmarket chaves de API não configuradas"}
+{"ts":"2026-09-15 23:29:07,528","level":"WARNING","logger":"collectors.dmarket","msg":"source=dmarket chaves de API não configuradas"}
+{"ts":"2026-09-15 23:29:07,528","level":"WARNING","logger":"collectors.dmarket","msg":"source=dmarket chaves de API não configuradas"}
+{"ts":"2026-09-15 23:29:07,528","level":"WARNING","logger":"collectors.dmarket","msg":"source=dmarket chaves de API não configuradas"}
+{"ts":"2026-09-15 23:29:07,528","level":"WARNING","logger":"collectors.dmarket","msg":"source=dmarket chaves de API não configuradas"}
+{"ts":"2026-09-15 23:29:07,528","level":"WARNING","logger":"collectors.dmarket","msg":"source=dmarket chaves de API não configuradas"}
+{"ts":"2026-09-15 23:29:07,528","level":"WARNING","logger":"collectors.dmarket","msg":"source=dmarket chaves de API não configuradas"}
+{"ts":"2026-09-15 23:29:07,528","level":"WARNING","logger":"collectors.dmarket","msg":"source=dmarket chaves de API não configuradas"}
+{"ts":"2026-09-15 23:29:07,528","level":"WARNING","logger":"collectors.dmarket","msg":"source=dmarket chaves de API não configuradas"}
+{"ts":"2026-09-15 23:29:07,528","level":"WARNING","logger":"collectors.dmarket","msg":"source=dmarket chaves de API não configuradas"}
+{"ts":"2026-09-15 23:29:07,528","level":"WARNING","logger":"collectors.dmarket","msg":"source=dmarket chaves de API não configuradas"}
+{"ts":"2026-09-15 23:29:07,528","level":"WARNING","logger":"collectors.dmarket","msg":"source=dmarket chaves de API não configuradas"}
+{"ts":"2026-09-15 23:29:07,528","level":"WARNING","logger":"collectors.dmarket","msg":"source=dmarket chaves de API não configuradas"}
+{"ts":"2026-09-15 23:29:07,528","level":"WARNING","logger":"collectors.dmarket","msg":"source=dmarket chaves de API não configuradas"}
+{"ts":"2026-09-15 23:29:07,528","level":"WARNING","logger":"collectors.dmarket","msg":"source=dmarket chaves de API não configuradas"}
+{"ts":"2026-09-15 23:29:07,528","level":"WARNING","logger":"collectors.dmarket","msg":"source=dmarket chaves de API não configuradas"}
+{"ts":"2026-09-15 23:29:07,528","level":"WARNING","logger":"collectors.dmarket","msg":"source=dmarket chaves de API não configuradas"}
+{"ts":"2026-09-15 23:29:07,544","level":"WARNING","logger":"collectors.csfloat","msg":"source=csfloat CSFLOAT_API_KEY não configurada"}
+{"ts":"2026-09-15 23:29:07,544","level":"WARNING","logger":"collectors.csfloat","msg":"source=csfloat CSFLOAT_API_KEY não configurada"}
+{"ts":"2026-09-15 23:29:07,544","level":"WARNING","logger":"collectors.csfloat","msg":"source=csfloat CSFLOAT_API_KEY não configurada"}
+{"ts":"2026-09-15 23:29:07,544","level":"WARNING","logger":"collectors.csfloat","msg":"source=csfloat CSFLOAT_API_KEY não configurada"}
+{"ts":"2026-09-15 23:29:07,544","level":"WARNING","logger":"collectors.csfloat","msg":"source=csfloat CSFLOAT_API_KEY não configurada"}
+{"ts":"2026-09-15 23:29:07,544","level":"WARNING","logger":"collectors.csfloat","msg":"source=csfloat CSFLOAT_API_KEY não configurada"}
+{"ts":"2026-09-15 23:29:07,544","level":"WARNING","logger":"collectors.csfloat","msg":"source=csfloat CSFLOAT_API_KEY não configurada"}
+{"ts":"2026-09-15 23:29:07,544","level":"WARNING","logger":"collectors.csfloat","msg":"source=csfloat CSFLOAT_API_KEY não configurada"}
+{"ts":"2026-09-15 23:29:07,544","level":"WARNING","logger":"collectors.csfloat","msg":"source=csfloat CSFLOAT_API_KEY não configurada"}
+{"ts":"2026-09-15 23:29:07,544","level":"WARNING","logger":"collectors.csfloat","msg":"source=csfloat CSFLOAT_API_KEY não configurada"}
+{"ts":"2026-09-15 23:29:07,544","level":"WARNING","logger":"collectors.csfloat","msg":"source=csfloat CSFLOAT_API_KEY não configurada"}
+{"ts":"2026-09-15 23:29:07,544","level":"WARNING","logger":"collectors.csfloat","msg":"source=csfloat CSFLOAT_API_KEY não configurada"}
+{"ts":"2026-09-15 23:29:07,544","level":"WARNING","logger":"collectors.csfloat","msg":"source=csfloat CSFLOAT_API_KEY não configurada"}
+{"ts":"2026-09-15 23:29:07,544","level":"WARNING","logger":"collectors.csfloat","msg":"source=csfloat CSFLOAT_API_KEY não configurada"}
+{"ts":"2026-09-15 23:29:07,545","level":"WARNING","logger":"collectors.csfloat","msg":"source=csfloat CSFLOAT_API_KEY não configurada"}
+{"ts":"2026-09-15 23:29:07,545","level":"WARNING","logger":"collectors.csfloat","msg":"source=csfloat CSFLOAT_API_KEY não configurada"}
+{"ts":"2026-09-15 23:29:07,545","level":"WARNING","logger":"collectors.csfloat","msg":"source=csfloat CSFLOAT_API_KEY não configurada"}
+{"ts":"2026-09-15 23:29:07,545","level":"WARNING","logger":"collectors.csfloat","msg":"source=csfloat CSFLOAT_API_KEY não configurada"}
+{"ts":"2026-09-15 23:29:07,545","level":"WARNING","logger":"collectors.csfloat","msg":"source=csfloat CSFLOAT_API_KEY não configurada"}
+{"ts":"2026-09-15 23:29:07,545","level":"WARNING","logger":"collectors.csfloat","msg":"source=csfloat CSFLOAT_API_KEY não configurada"}
+{"ts":"2026-09-15 23:29:07,545","level":"WARNING","logger":"collectors.csfloat","msg":"source=csfloat CSFLOAT_API_KEY não configurada"}
+{"ts":"2026-09-15 23:29:07,545","level":"WARNING","logger":"collectors.csfloat","msg":"source=csfloat CSFLOAT_API_KEY não configurada"}
+{"ts":"2026-09-15 23:29:07,545","level":"WARNING","logger":"collectors.csfloat","msg":"source=csfloat CSFLOAT_API_KEY não configurada"}
+{"ts":"2026-09-15 23:29:07,545","level":"WARNING","logger":"collectors.csfloat","msg":"source=csfloat CSFLOAT_API_KEY não configurada"}
+{"ts":"2026-09-15 23:29:07,545","level":"WARNING","logger":"collectors.csfloat","msg":"source=csfloat CSFLOAT_API_KEY não configurada"}
+{"ts":"2026-09-15 23:31:19,083","level":"INFO","logger":"werkzeug","msg":"192.168.1.183 - - [15/Sep/2026 23:31:19] "GET /?max_cost=2 HTTP/1.1" 200 -"}
+{"ts":"2026-09-15 23:31:19,118","level":"INFO","logger":"werkzeug","msg":"192.168.1.183 - - [15/Sep/2026 23:31:19] "[36mGET /static/css/theme.css HTTP/1.1[0m" 304 -"}
+{"ts":"2026-09-15 23:31:19,185","level":"INFO","logger":"werkzeug","msg":"192.168.1.183 - - [15/Sep/2026 23:31:19] "[36mGET /static/css/theme.css HTTP/1.1[0m" 304 -"}
+{"ts":"2026-09-15 23:31:19,329","level":"INFO","logger":"werkzeug","msg":"192.168.1.183 - - [15/Sep/2026 23:31:19] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -"}
+{"ts":"2026-09-15 23:31:32,329","level":"INFO","logger":"werkzeug","msg":"192.168.1.183 - - [15/Sep/2026 23:31:32] "GET /?max_cost=3 HTTP/1.1" 200 -"}
+{"ts":"2026-09-15 23:31:32,363","level":"INFO","logger":"werkzeug","msg":"192.168.1.183 - - [15/Sep/2026 23:31:32] "[36mGET /static/css/theme.css HTTP/1.1[0m" 304 -"}
+{"ts":"2026-09-15 23:31:32,427","level":"INFO","logger":"werkzeug","msg":"192.168.1.183 - - [15/Sep/2026 23:31:32] "[36mGET /static/css/theme.css HTTP/1.1[0m" 304 -"}
+{"ts":"2026-09-15 23:31:32,516","level":"INFO","logger":"werkzeug","msg":"192.168.1.183 - - [15/Sep/2026 23:31:32] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -"}
+{"ts":"2026-09-15 23:31:38,148","level":"INFO","logger":"werkzeug","msg":"192.168.1.183 - - [15/Sep/2026 23:31:38] "GET /?max_cost=10 HTTP/1.1" 200 -"}
+{"ts":"2026-09-15 23:31:38,180","level":"INFO","logger":"werkzeug","msg":"192.168.1.183 - - [15/Sep/2026 23:31:38] "[36mGET /static/css/theme.css HTTP/1.1[0m" 304 -"}
+{"ts":"2026-09-15 23:31:38,192","level":"INFO","logger":"werkzeug","msg":"192.168.1.183 - - [15/Sep/2026 23:31:38] "[36mGET /static/css/theme.css HTTP/1.1[0m" 304 -"}
+{"ts":"2026-09-15 23:31:38,290","level":"INFO","logger":"werkzeug","msg":"192.168.1.183 - - [15/Sep/2026 23:31:38] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -"}
+{"ts":"2026-09-15 23:31:43,118","level":"INFO","logger":"werkzeug","msg":"192.168.1.183 - - [15/Sep/2026 23:31:43] "GET /?max_cost=5 HTTP/1.1" 200 -"}
+{"ts":"2026-09-15 23:31:43,151","level":"INFO","logger":"werkzeug","msg":"192.168.1.183 - - [15/Sep/2026 23:31:43] "[36mGET /static/css/theme.css HTTP/1.1[0m" 304 -"}
+{"ts":"2026-09-15 23:31:43,166","level":"INFO","logger":"werkzeug","msg":"192.168.1.183 - - [15/Sep/2026 23:31:43] "[36mGET /static/css/theme.css HTTP/1.1[0m" 304 -"}
+{"ts":"2026-09-15 23:31:43,249","level":"INFO","logger":"werkzeug","msg":"192.168.1.183 - - [15/Sep/2026 23:31:43] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -"}
+{"ts":"2026-09-15 23:34:09,424","level":"INFO","logger":"collectors.base","msg":"source=skinport gravados=16058"}
+{"ts":"2026-09-15 23:34:09,910","level":"INFO","logger":"engine.opportunities","msg":"oportunidades recalculadas {'tradeups': 3000, 'tradeups_profitable': 310, 'tradeups_robust': 0, 'resale': 7852, 'resale_profitable': 4166, 'resale_robust': 0}"}
+{"ts":"2026-09-15 23:36:09,963","level":"INFO","logger":"werkzeug","msg":"192.168.1.183 - - [15/Sep/2026 23:36:09] "GET /?max_cost=5 HTTP/1.1" 200 -"}
+{"ts":"2026-09-15 23:36:09,994","level":"INFO","logger":"werkzeug","msg":"192.168.1.183 - - [15/Sep/2026 23:36:09] "[36mGET /static/css/theme.css HTTP/1.1[0m" 304 -"}
+{"ts":"2026-09-15 23:36:10,089","level":"INFO","logger":"werkzeug","msg":"192.168.1.183 - - [15/Sep/2026 23:36:10] "[36mGET /static/css/theme.css HTTP/1.1[0m" 304 -"}
+{"ts":"2026-09-15 23:36:10,233","level":"INFO","logger":"werkzeug","msg":"192.168.1.183 - - [15/Sep/2026 23:36:10] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -"}
+{"ts":"2026-09-15 23:36:24,034","level":"INFO","logger":"engine.opportunities","msg":"oportunidades recalculadas {'tradeups': 3000, 'tradeups_profitable': 310, 'tradeups_robust': 0, 'resale': 7852, 'resale_profitable': 4155, 'resale_robust': 0}"}
+{"ts":"2026-09-15 23:36:24,124","level":"INFO","logger":"werkzeug","msg":"192.168.1.183 - - [15/Sep/2026 23:36:24] "POST /compute HTTP/1.1" 200 -"}
+{"ts":"2026-09-15 23:36:24,947","level":"INFO","logger":"werkzeug","msg":"192.168.1.183 - - [15/Sep/2026 23:36:24] "GET /?max_cost=5 HTTP/1.1" 200 -"}
+{"ts":"2026-09-15 23:36:24,979","level":"INFO","logger":"werkzeug","msg":"192.168.1.183 - - [15/Sep/2026 23:36:24] "[36mGET /static/css/theme.css HTTP/1.1[0m" 304 -"}
+{"ts":"2026-09-15 23:36:24,988","level":"INFO","logger":"werkzeug","msg":"192.168.1.183 - - [15/Sep/2026 23:36:24] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -"}
+{"ts":"2026-09-15 23:36:25,039","level":"INFO","logger":"werkzeug","msg":"192.168.1.183 - - [15/Sep/2026 23:36:25] "[36mGET /static/css/theme.css HTTP/1.1[0m" 304 -"}
+{"ts":"2026-09-15 23:36:26,591","level":"INFO","logger":"werkzeug","msg":"192.168.1.183 - - [15/Sep/2026 23:36:26] "GET /?max_cost=2 HTTP/1.1" 200 -"}
+{"ts":"2026-09-15 23:36:26,626","level":"INFO","logger":"werkzeug","msg":"192.168.1.183 - - [15/Sep/2026 23:36:26] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -"}
+{"ts":"2026-09-15 23:36:26,628","level":"INFO","logger":"werkzeug","msg":"192.168.1.183 - - [15/Sep/2026 23:36:26] "[36mGET /static/css/theme.css HTTP/1.1[0m" 304 -"}
+{"ts":"2026-09-15 23:36:26,638","level":"INFO","logger":"werkzeug","msg":"192.168.1.183 - - [15/Sep/2026 23:36:26] "[36mGET /static/css/theme.css HTTP/1.1[0m" 304 -"}
+{"ts":"2026-09-15 23:36:38,772","level":"INFO","logger":"scheduler","msg":"scheduler iniciado: ['positions', 'compute', 'csfloat', 'dmarket', 'skinport', 'steam', 'steam_history', 'import_items']"}
+ * Serving Flask app 'app'
+ * Debug mode: off
+{"ts":"2026-09-15 23:36:38,782","level":"INFO","logger":"werkzeug","msg":"[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.183:5000"}
+{"ts":"2026-09-15 23:36:38,782","level":"INFO","logger":"werkzeug","msg":"[33mPress CTRL+C to quit[0m"}
+{"ts":"2026-09-15 23:37:15,622","level":"INFO","logger":"werkzeug","msg":"127.0.0.1 - - [15/Sep/2026 23:37:15] "GET /health HTTP/1.1" 200 -"}
+{"ts":"2026-09-15 23:37:24,940","level":"INFO","logger":"werkzeug","msg":"127.0.0.1 - - [15/Sep/2026 23:37:24] "GET / HTTP/1.1" 200 -"}
+{"ts":"2026-09-15 23:37:25,018","level":"INFO","logger":"werkzeug","msg":"127.0.0.1 - - [15/Sep/2026 23:37:25] "GET /static/css/theme.css HTTP/1.1" 200 -"}
+{"ts":"2026-09-15 23:37:25,028","level":"INFO","logger":"werkzeug","msg":"127.0.0.1 - - [15/Sep/2026 23:37:25] "GET /static/js/app.js HTTP/1.1" 200 -"}
+{"ts":"2026-09-15 23:37:25,453","level":"INFO","logger":"werkzeug","msg":"127.0.0.1 - - [15/Sep/2026 23:37:25] "GET /?tab=resale&max_cost=3 HTTP/1.1" 200 -"}
+{"ts":"2026-09-15 23:37:25,479","level":"INFO","logger":"werkzeug","msg":"127.0.0.1 - - [15/Sep/2026 23:37:25] "[36mGET /static/css/theme.css HTTP/1.1[0m" 304 -"}
+{"ts":"2026-09-15 23:37:25,494","level":"INFO","logger":"werkzeug","msg":"127.0.0.1 - - [15/Sep/2026 23:37:25] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -"}
+{"ts":"2026-09-15 23:37:48,214","level":"INFO","logger":"werkzeug","msg":"192.168.1.183 - - [15/Sep/2026 23:37:48] "GET /?max_cost=2 HTTP/1.1" 200 -"}
+{"ts":"2026-09-15 23:37:48,249","level":"INFO","logger":"werkzeug","msg":"192.168.1.183 - - [15/Sep/2026 23:37:48] "[36mGET /static/css/theme.css HTTP/1.1[0m" 304 -"}
+{"ts":"2026-09-15 23:37:48,276","level":"INFO","logger":"werkzeug","msg":"192.168.1.183 - - [15/Sep/2026 23:37:48] "[36mGET /static/css/theme.css HTTP/1.1[0m" 304 -"}
+{"ts":"2026-09-15 23:37:48,376","level":"INFO","logger":"werkzeug","msg":"192.168.1.183 - - [15/Sep/2026 23:37:48] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -"}
+{"ts":"2026-09-15 23:37:51,639","level":"INFO","logger":"werkzeug","msg":"192.168.1.183 - - [15/Sep/2026 23:37:51] "GET /?max_cost=2 HTTP/1.1" 200 -"}
+{"ts":"2026-09-15 23:37:51,673","level":"INFO","logger":"werkzeug","msg":"192.168.1.183 - - [15/Sep/2026 23:37:51] "[36mGET /static/css/theme.css HTTP/1.1[0m" 304 -"}
+{"ts":"2026-09-15 23:37:51,688","level":"INFO","logger":"werkzeug","msg":"192.168.1.183 - - [15/Sep/2026 23:37:51] "[36mGET /static/css/theme.css HTTP/1.1[0m" 304 -"}
+{"ts":"2026-09-15 23:37:51,768","level":"INFO","logger":"werkzeug","msg":"192.168.1.183 - - [15/Sep/2026 23:37:51] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -"}
+{"ts":"2026-09-15 23:37:55,541","level":"INFO","logger":"werkzeug","msg":"192.168.1.183 - - [15/Sep/2026 23:37:55] "GET /?max_cost=2 HTTP/1.1" 200 -"}
+{"ts":"2026-09-15 23:37:55,566","level":"INFO","logger":"werkzeug","msg":"192.168.1.183 - - [15/Sep/2026 23:37:55] "[36mGET /static/css/theme.css HTTP/1.1[0m" 304 -"}
+{"ts":"2026-09-15 23:37:55,658","level":"INFO","logger":"werkzeug","msg":"192.168.1.183 - - [15/Sep/2026 23:37:55] "[36mGET /static/css/theme.css HTTP/1.1[0m" 304 -"}
+{"ts":"2026-09-15 23:37:55,796","level":"INFO","logger":"werkzeug","msg":"192.168.1.183 - - [15/Sep/2026 23:37:55] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -"}
+{"ts":"2026-09-15 23:38:10,309","level":"INFO","logger":"werkzeug","msg":"192.168.1.183 - - [15/Sep/2026 23:38:10] "POST /collect/csfloat HTTP/1.1" 200 -"}
+{"ts":"2026-09-15 23:38:12,110","level":"INFO","logger":"werkzeug","msg":"192.168.1.183 - - [15/Sep/2026 23:38:12] "POST /collect/dmarket HTTP/1.1" 200 -"}
+{"ts":"2026-09-15 23:42:52,080","level":"INFO","logger":"werkzeug","msg":"192.168.1.183 - - [15/Sep/2026 23:42:52] "GET /?max_cost=2 HTTP/1.1" 200 -"}
+{"ts":"2026-09-15 23:42:52,126","level":"INFO","logger":"werkzeug","msg":"192.168.1.183 - - [15/Sep/2026 23:42:52] "[36mGET /static/css/theme.css HTTP/1.1[0m" 304 -"}
+{"ts":"2026-09-15 23:42:52,192","level":"INFO","logger":"werkzeug","msg":"192.168.1.183 - - [15/Sep/2026 23:42:52] "[36mGET /static/css/theme.css HTTP/1.1[0m" 304 -"}
+{"ts":"2026-09-15 23:42:52,310","level":"INFO","logger":"werkzeug","msg":"192.168.1.183 - - [15/Sep/2026 23:42:52] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -"}
+{"ts":"2026-09-15 23:46:40,250","level":"INFO","logger":"engine.opportunities","msg":"oportunidades recalculadas {'tradeups': 3000, 'tradeups_profitable': 226, 'tradeups_robust': 0, 'resale': 7852, 'resale_profitable': 3790, 'resale_robust': 0}"}
+{"ts":"2026-09-15 23:47:52,638","level":"INFO","logger":"werkzeug","msg":"192.168.1.183 - - [15/Sep/2026 23:47:52] "GET /?max_cost=2 HTTP/1.1" 200 -"}
+{"ts":"2026-09-15 23:47:52,679","level":"INFO","logger":"werkzeug","msg":"192.168.1.183 - - [15/Sep/2026 23:47:52] "[36mGET /static/css/theme.css HTTP/1.1[0m" 304 -"}
+{"ts":"2026-09-15 23:47:52,737","level":"INFO","logger":"werkzeug","msg":"192.168.1.183 - - [15/Sep/2026 23:47:52] "[36mGET /static/css/theme.css HTTP/1.1[0m" 304 -"}
+{"ts":"2026-09-15 23:47:52,845","level":"INFO","logger":"werkzeug","msg":"192.168.1.183 - - [15/Sep/2026 23:47:52] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -"}
+{"ts":"2026-09-15 23:52:53,196","level":"INFO","logger":"werkzeug","msg":"192.168.1.183 - - [15/Sep/2026 23:52:53] "GET /?max_cost=2 HTTP/1.1" 200 -"}
+{"ts":"2026-09-15 23:52:53,237","level":"INFO","logger":"werkzeug","msg":"192.168.1.183 - - [15/Sep/2026 23:52:53] "[36mGET /static/css/theme.css HTTP/1.1[0m" 304 -"}
+{"ts":"2026-09-15 23:52:53,258","level":"INFO","logger":"werkzeug","msg":"192.168.1.183 - - [15/Sep/2026 23:52:53] "[36mGET /static/css/theme.css HTTP/1.1[0m" 304 -"}
+{"ts":"2026-09-15 23:52:53,375","level":"INFO","logger":"werkzeug","msg":"192.168.1.183 - - [15/Sep/2026 23:52:53] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -"}
+{"ts":"2026-09-15 23:56:40,582","level":"INFO","logger":"engine.opportunities","msg":"oportunidades recalculadas {'tradeups': 3000, 'tradeups_profitable': 226, 'tradeups_robust': 0, 'resale': 7852, 'resale_profitable': 3790, 'resale_robust': 0}"}
+{"ts":"2026-09-15 23:56:40,970","level":"INFO","logger":"collectors.base","msg":"source=skinport gravados=16058"}
+{"ts":"2026-09-15 23:57:53,676","level":"INFO","logger":"werkzeug","msg":"192.168.1.183 - - [15/Sep/2026 23:57:53] "GET /?max_cost=2 HTTP/1.1" 200 -"}
+{"ts":"2026-09-15 23:57:53,717","level":"INFO","logger":"werkzeug","msg":"192.168.1.183 - - [15/Sep/2026 23:57:53] "[36mGET /static/css/theme.css HTTP/1.1[0m" 304 -"}
+{"ts":"2026-09-15 23:57:53,738","level":"INFO","logger":"werkzeug","msg":"192.168.1.183 - - [15/Sep/2026 23:57:53] "[36mGET /static/css/theme.css HTTP/1.1[0m" 304 -"}
+{"ts":"2026-09-15 23:57:53,847","level":"INFO","logger":"werkzeug","msg":"192.168.1.183 - - [15/Sep/2026 23:57:53] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -"}
+{"ts":"2026-09-16 00:02:54,195","level":"INFO","logger":"werkzeug","msg":"192.168.1.183 - - [16/Sep/2026 00:02:54] "GET /?max_cost=2 HTTP/1.1" 200 -"}
+{"ts":"2026-09-16 00:02:54,237","level":"INFO","logger":"werkzeug","msg":"192.168.1.183 - - [16/Sep/2026 00:02:54] "[36mGET /static/css/theme.css HTTP/1.1[0m" 304 -"}
+{"ts":"2026-09-16 00:02:54,258","level":"INFO","logger":"werkzeug","msg":"192.168.1.183 - - [16/Sep/2026 00:02:54] "[36mGET /static/css/theme.css HTTP/1.1[0m" 304 -"}
+{"ts":"2026-09-16 00:02:54,372","level":"INFO","logger":"werkzeug","msg":"192.168.1.183 - - [16/Sep/2026 00:02:54] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -"}
+{"ts":"2026-09-16 00:06:39,502","level":"WARNING","logger":"collectors.base","msg":"source=steam status=429 (sem retry)"}
+{"ts":"2026-09-16 00:06:40,696","level":"INFO","logger":"engine.opportunities","msg":"oportunidades recalculadas {'tradeups': 3000, 'tradeups_profitable': 228, 'tradeups_robust': 0, 'resale': 7852, 'resale_profitable': 3786, 'resale_robust': 0}"}
+{"ts":"2026-09-16 00:06:42,823","level":"WARNING","logger":"collectors.base","msg":"source=steam status=429 (sem retry)"}
+{"ts":"2026-09-16 00:06:46,041","level":"WARNING","logger":"collectors.base","msg":"source=steam status=429 (sem retry)"}
+{"ts":"2026-09-16 00:06:49,531","level":"WARNING","logger":"collectors.base","msg":"source=steam status=429 (sem retry)"}
+{"ts":"2026-09-16 00:06:53,022","level":"WARNING","logger":"collectors.base","msg":"source=steam status=429 (sem retry)"}
+{"ts":"2026-09-16 00:06:53,022","level":"ERROR","logger":"collectors.steam","msg":"source=steam 5 falhas consecutivas — IP provavelmente limitado (429) ou cookies em falta; run abortado"}
+{"ts":"2026-09-16 00:07:54,687","level":"INFO","logger":"werkzeug","msg":"192.168.1.183 - - [16/Sep/2026 00:07:54] "GET /?max_cost=2 HTTP/1.1" 200 -"}
+{"ts":"2026-09-16 00:07:54,727","level":"INFO","logger":"werkzeug","msg":"192.168.1.183 - - [16/Sep/2026 00:07:54] "[36mGET /static/css/theme.css HTTP/1.1[0m" 304 -"}
+{"ts":"2026-09-16 00:07:54,747","level":"INFO","logger":"werkzeug","msg":"192.168.1.183 - - [16/Sep/2026 00:07:54] "[36mGET /static/css/theme.css HTTP/1.1[0m" 304 -"}
+{"ts":"2026-09-16 00:07:54,869","level":"INFO","logger":"werkzeug","msg":"192.168.1.183 - - [16/Sep/2026 00:07:54] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -"}
+{"ts":"2026-09-16 00:12:55,177","level":"INFO","logger":"werkzeug","msg":"192.168.1.183 - - [16/Sep/2026 00:12:55] "GET /?max_cost=2 HTTP/1.1" 200 -"}
+{"ts":"2026-09-16 00:12:55,222","level":"INFO","logger":"werkzeug","msg":"192.168.1.183 - - [16/Sep/2026 00:12:55] "[36mGET /static/css/theme.css HTTP/1.1[0m" 304 -"}
+{"ts":"2026-09-16 00:12:55,240","level":"INFO","logger":"werkzeug","msg":"192.168.1.183 - - [16/Sep/2026 00:12:55] "[36mGET /static/css/theme.css HTTP/1.1[0m" 304 -"}
+{"ts":"2026-09-16 00:12:55,340","level":"INFO","logger":"werkzeug","msg":"192.168.1.183 - - [16/Sep/2026 00:12:55] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -"}
+{"ts":"2026-09-16 00:16:40,414","level":"INFO","logger":"collectors.base","msg":"source=skinport gravados=16064"}
+{"ts":"2026-09-16 00:16:40,926","level":"INFO","logger":"engine.opportunities","msg":"oportunidades recalculadas {'tradeups': 3000, 'tradeups_profitable': 228, 'tradeups_robust': 0, 'resale': 7852, 'resale_profitable': 3786, 'resale_robust': 0}"}
+{"ts":"2026-09-16 00:17:55,659","level":"INFO","logger":"werkzeug","msg":"192.168.1.183 - - [16/Sep/2026 00:17:55] "GET /?max_cost=2 HTTP/1.1" 200 -"}
+{"ts":"2026-09-16 00:17:55,697","level":"INFO","logger":"werkzeug","msg":"192.168.1.183 - - [16/Sep/2026 00:17:55] "[36mGET /static/css/theme.css HTTP/1.1[0m" 304 -"}
+{"ts":"2026-09-16 00:17:55,721","level":"INFO","logger":"werkzeug","msg":"192.168.1.183 - - [16/Sep/2026 00:17:55] "[36mGET /static/css/theme.css HTTP/1.1[0m" 304 -"}
+{"ts":"2026-09-16 00:17:55,797","level":"INFO","logger":"werkzeug","msg":"192.168.1.183 - - [16/Sep/2026 00:17:55] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -"}
+{"ts":"2026-09-16 00:22:56,141","level":"INFO","logger":"werkzeug","msg":"192.168.1.183 - - [16/Sep/2026 00:22:56] "GET /?max_cost=2 HTTP/1.1" 200 -"}
+{"ts":"2026-09-16 00:22:56,181","level":"INFO","logger":"werkzeug","msg":"192.168.1.183 - - [16/Sep/2026 00:22:56] "[36mGET /static/css/theme.css HTTP/1.1[0m" 304 -"}
+{"ts":"2026-09-16 00:22:56,203","level":"INFO","logger":"werkzeug","msg":"192.168.1.183 - - [16/Sep/2026 00:22:56] "[36mGET /static/css/theme.css HTTP/1.1[0m" 304 -"}
+{"ts":"2026-09-16 00:22:56,301","level":"INFO","logger":"werkzeug","msg":"192.168.1.183 - - [16/Sep/2026 00:22:56] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -"}
+{"ts":"2026-09-16 00:26:40,948","level":"INFO","logger":"engine.opportunities","msg":"oportunidades recalculadas {'tradeups': 3000, 'tradeups_profitable': 229, 'tradeups_robust': 0, 'resale': 7854, 'resale_profitable': 3801, 'resale_robust': 0}"}
+{"ts":"2026-09-16 00:27:56,645","level":"INFO","logger":"werkzeug","msg":"192.168.1.183 - - [16/Sep/2026 00:27:56] "GET /?max_cost=2 HTTP/1.1" 200 -"}
+{"ts":"2026-09-16 00:27:56,686","level":"INFO","logger":"werkzeug","msg":"192.168.1.183 - - [16/Sep/2026 00:27:56] "[36mGET /static/css/theme.css HTTP/1.1[0m" 304 -"}
+{"ts":"2026-09-16 00:27:56,704","level":"INFO","logger":"werkzeug","msg":"192.168.1.183 - - [16/Sep/2026 00:27:56] "[36mGET /static/css/theme.css HTTP/1.1[0m" 304 -"}
+{"ts":"2026-09-16 00:27:56,809","level":"INFO","logger":"werkzeug","msg":"192.168.1.183 - - [16/Sep/2026 00:27:56] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -"}
+{"ts":"2026-09-16 00:32:57,130","level":"INFO","logger":"werkzeug","msg":"192.168.1.183 - - [16/Sep/2026 00:32:57] "GET /?max_cost=2 HTTP/1.1" 200 -"}
+{"ts":"2026-09-16 00:32:57,167","level":"INFO","logger":"werkzeug","msg":"192.168.1.183 - - [16/Sep/2026 00:32:57] "[36mGET /static/css/theme.css HTTP/1.1[0m" 304 -"}
+{"ts":"2026-09-16 00:32:57,188","level":"INFO","logger":"werkzeug","msg":"192.168.1.183 - - [16/Sep/2026 00:32:57] "[36mGET /static/css/theme.css HTTP/1.1[0m" 304 -"}
+{"ts":"2026-09-16 00:32:57,274","level":"INFO","logger":"werkzeug","msg":"192.168.1.183 - - [16/Sep/2026 00:32:57] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -"}
+{"ts":"2026-09-16 00:36:39,494","level":"WARNING","logger":"collectors.base","msg":"source=steam status=429 (sem retry)"}
+{"ts":"2026-09-16 00:36:40,581","level":"INFO","logger":"collectors.base","msg":"source=skinport gravados=16062"}
+{"ts":"2026-09-16 00:36:41,369","level":"INFO","logger":"engine.opportunities","msg":"oportunidades recalculadas {'tradeups': 3000, 'tradeups_profitable': 229, 'tradeups_robust': 0, 'resale': 7854, 'resale_profitable': 3801, 'resale_robust': 0}"}
+{"ts":"2026-09-16 00:36:42,565","level":"WARNING","logger":"collectors.base","msg":"source=steam status=429 (sem retry)"}
+{"ts":"2026-09-16 00:36:46,061","level":"WARNING","logger":"collectors.base","msg":"source=steam status=429 (sem retry)"}
+{"ts":"2026-09-16 00:36:49,542","level":"WARNING","logger":"collectors.base","msg":"source=steam status=429 (sem retry)"}
+{"ts":"2026-09-16 00:36:53,051","level":"WARNING","logger":"collectors.base","msg":"source=steam status=429 (sem retry)"}
+{"ts":"2026-09-16 00:36:53,052","level":"ERROR","logger":"collectors.steam","msg":"source=steam 5 falhas consecutivas — IP provavelmente limitado (429) ou cookies em falta; run abortado"}
+{"ts":"2026-09-16 00:37:57,607","level":"INFO","logger":"werkzeug","msg":"192.168.1.183 - - [16/Sep/2026 00:37:57] "GET /?max_cost=2 HTTP/1.1" 200 -"}
+{"ts":"2026-09-16 00:37:57,648","level":"INFO","logger":"werkzeug","msg":"192.168.1.183 - - [16/Sep/2026 00:37:57] "[36mGET /static/css/theme.css HTTP/1.1[0m" 304 -"}
+{"ts":"2026-09-16 00:37:57,668","level":"INFO","logger":"werkzeug","msg":"192.168.1.183 - - [16/Sep/2026 00:37:57] "[36mGET /static/css/theme.css HTTP/1.1[0m" 304 -"}
+{"ts":"2026-09-16 00:37:57,767","level":"INFO","logger":"werkzeug","msg":"192.168.1.183 - - [16/Sep/2026 00:37:57] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -"}
+{"ts":"2026-09-16 00:42:58,076","level":"INFO","logger":"werkzeug","msg":"192.168.1.183 - - [16/Sep/2026 00:42:58] "GET /?max_cost=2 HTTP/1.1" 200 -"}
+{"ts":"2026-09-16 00:42:58,117","level":"INFO","logger":"werkzeug","msg":"192.168.1.183 - - [16/Sep/2026 00:42:58] "[36mGET /static/css/theme.css HTTP/1.1[0m" 304 -"}
+{"ts":"2026-09-16 00:42:58,138","level":"INFO","logger":"werkzeug","msg":"192.168.1.183 - - [16/Sep/2026 00:42:58] "[36mGET /static/css/theme.css HTTP/1.1[0m" 304 -"}
+{"ts":"2026-09-16 00:42:58,250","level":"INFO","logger":"werkzeug","msg":"192.168.1.183 - - [16/Sep/2026 00:42:58] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -"}
+{"ts":"2026-09-16 00:46:41,146","level":"INFO","logger":"engine.opportunities","msg":"oportunidades recalculadas {'tradeups': 3000, 'tradeups_profitable': 229, 'tradeups_robust': 0, 'resale': 7854, 'resale_profitable': 3804, 'resale_robust': 0}"}
+{"ts":"2026-09-16 00:47:58,572","level":"INFO","logger":"werkzeug","msg":"192.168.1.183 - - [16/Sep/2026 00:47:58] "GET /?max_cost=2 HTTP/1.1" 200 -"}
+{"ts":"2026-09-16 00:47:58,614","level":"INFO","logger":"werkzeug","msg":"192.168.1.183 - - [16/Sep/2026 00:47:58] "[36mGET /static/css/theme.css HTTP/1.1[0m" 304 -"}
+{"ts":"2026-09-16 00:47:58,633","level":"INFO","logger":"werkzeug","msg":"192.168.1.183 - - [16/Sep/2026 00:47:58] "[36mGET /static/css/theme.css HTTP/1.1[0m" 304 -"}
+{"ts":"2026-09-16 00:47:58,717","level":"INFO","logger":"werkzeug","msg":"192.168.1.183 - - [16/Sep/2026 00:47:58] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -"}
+{"ts":"2026-09-16 00:52:59,016","level":"INFO","logger":"werkzeug","msg":"192.168.1.183 - - [16/Sep/2026 00:52:59] "GET /?max_cost=2 HTTP/1.1" 200 -"}
+{"ts":"2026-09-16 00:52:59,056","level":"INFO","logger":"werkzeug","msg":"192.168.1.183 - - [16/Sep/2026 00:52:59] "[36mGET /static/css/theme.css HTTP/1.1[0m" 304 -"}
+{"ts":"2026-09-16 00:52:59,075","level":"INFO","logger":"werkzeug","msg":"192.168.1.183 - - [16/Sep/2026 00:52:59] "[36mGET /static/css/theme.css HTTP/1.1[0m" 304 -"}
+{"ts":"2026-09-16 00:52:59,170","level":"INFO","logger":"werkzeug","msg":"192.168.1.183 - - [16/Sep/2026 00:52:59] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -"}
+{"ts":"2026-09-16 00:56:40,604","level":"INFO","logger":"collectors.base","msg":"source=skinport gravados=16060"}
+{"ts":"2026-09-16 00:56:41,511","level":"INFO","logger":"engine.opportunities","msg":"oportunidades recalculadas {'tradeups': 3000, 'tradeups_profitable': 229, 'tradeups_robust': 0, 'resale': 7854, 'resale_profitable': 3804, 'resale_robust': 0}"}
+{"ts":"2026-09-16 00:57:59,475","level":"INFO","logger":"werkzeug","msg":"192.168.1.183 - - [16/Sep/2026 00:57:59] "GET /?max_cost=2 HTTP/1.1" 200 -"}
+{"ts":"2026-09-16 00:57:59,516","level":"INFO","logger":"werkzeug","msg":"192.168.1.183 - - [16/Sep/2026 00:57:59] "[36mGET /static/css/theme.css HTTP/1.1[0m" 304 -"}
+{"ts":"2026-09-16 00:57:59,536","level":"INFO","logger":"werkzeug","msg":"192.168.1.183 - - [16/Sep/2026 00:57:59] "[36mGET /static/css/theme.css HTTP/1.1[0m" 304 -"}
+{"ts":"2026-09-16 00:57:59,624","level":"INFO","logger":"werkzeug","msg":"192.168.1.183 - - [16/Sep/2026 00:57:59] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -"}
+{"ts":"2026-09-16 01:02:59,942","level":"INFO","logger":"werkzeug","msg":"192.168.1.183 - - [16/Sep/2026 01:02:59] "GET /?max_cost=2 HTTP/1.1" 200 -"}
+{"ts":"2026-09-16 01:02:59,984","level":"INFO","logger":"werkzeug","msg":"192.168.1.183 - - [16/Sep/2026 01:02:59] "[36mGET /static/css/theme.css HTTP/1.1[0m" 304 -"}
+{"ts":"2026-09-16 01:03:00,002","level":"INFO","logger":"werkzeug","msg":"192.168.1.183 - - [16/Sep/2026 01:03:00] "[36mGET /static/css/theme.css HTTP/1.1[0m" 304 -"}
+{"ts":"2026-09-16 01:03:00,104","level":"INFO","logger":"werkzeug","msg":"192.168.1.183 - - [16/Sep/2026 01:03:00] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -"}
+{"ts":"2026-09-16 01:06:39,373","level":"WARNING","logger":"collectors.base","msg":"source=steam status=429 (sem retry)"}
+{"ts":"2026-09-16 01:06:41,467","level":"INFO","logger":"engine.opportunities","msg":"oportunidades recalculadas {'tradeups': 3000, 'tradeups_profitable': 229, 'tradeups_robust': 0, 'resale': 7854, 'resale_profitable': 3804, 'resale_robust': 0}"}
+{"ts":"2026-09-16 01:06:42,573","level":"WARNING","logger":"collectors.base","msg":"source=steam status=429 (sem retry)"}
+{"ts":"2026-09-16 01:06:46,018","level":"WARNING","logger":"collectors.base","msg":"source=steam status=429 (sem retry)"}
+{"ts":"2026-09-16 01:06:49,703","level":"WARNING","logger":"collectors.base","msg":"source=steam status=429 (sem retry)"}
+{"ts":"2026-09-16 01:06:53,042","level":"WARNING","logger":"collectors.base","msg":"source=steam status=429 (sem retry)"}
+{"ts":"2026-09-16 01:06:53,043","level":"ERROR","logger":"collectors.steam","msg":"source=steam 5 falhas consecutivas — IP provavelmente limitado (429) ou cookies em falta; run abortado"}
+{"ts":"2026-09-16 01:08:00,427","level":"INFO","logger":"werkzeug","msg":"192.168.1.183 - - [16/Sep/2026 01:08:00] "GET /?max_cost=2 HTTP/1.1" 200 -"}
+{"ts":"2026-09-16 01:08:00,468","level":"INFO","logger":"werkzeug","msg":"192.168.1.183 - - [16/Sep/2026 01:08:00] "[36mGET /static/css/theme.css HTTP/1.1[0m" 304 -"}
+{"ts":"2026-09-16 01:08:00,489","level":"INFO","logger":"werkzeug","msg":"192.168.1.183 - - [16/Sep/2026 01:08:00] "[36mGET /static/css/theme.css HTTP/1.1[0m" 304 -"}
+{"ts":"2026-09-16 01:08:00,582","level":"INFO","logger":"werkzeug","msg":"192.168.1.183 - - [16/Sep/2026 01:08:00] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -"}
+{"ts":"2026-09-16 01:13:00,899","level":"INFO","logger":"werkzeug","msg":"192.168.1.183 - - [16/Sep/2026 01:13:00] "GET /?max_cost=2 HTTP/1.1" 200 -"}
+{"ts":"2026-09-16 01:13:00,937","level":"INFO","logger":"werkzeug","msg":"192.168.1.183 - - [16/Sep/2026 01:13:00] "[36mGET /static/css/theme.css HTTP/1.1[0m" 304 -"}
+{"ts":"2026-09-16 01:13:00,956","level":"INFO","logger":"werkzeug","msg":"192.168.1.183 - - [16/Sep/2026 01:13:00] "[36mGET /static/css/theme.css HTTP/1.1[0m" 304 -"}
+{"ts":"2026-09-16 01:13:01,042","level":"INFO","logger":"werkzeug","msg":"192.168.1.183 - - [16/Sep/2026 01:13:01] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -"}
+{"ts":"2026-09-16 01:16:40,611","level":"INFO","logger":"collectors.base","msg":"source=skinport gravados=16060"}
+{"ts":"2026-09-16 01:16:41,828","level":"INFO","logger":"engine.opportunities","msg":"oportunidades recalculadas {'tradeups': 3000, 'tradeups_profitable': 229, 'tradeups_robust': 0, 'resale': 7854, 'resale_profitable': 3804, 'resale_robust': 0}"}
+{"ts":"2026-09-16 01:18:01,673","level":"INFO","logger":"werkzeug","msg":"192.168.1.183 - - [16/Sep/2026 01:18:01] "GET /?max_cost=2 HTTP/1.1" 200 -"}
+{"ts":"2026-09-16 01:18:01,719","level":"INFO","logger":"werkzeug","msg":"192.168.1.183 - - [16/Sep/2026 01:18:01] "[36mGET /static/css/theme.css HTTP/1.1[0m" 304 -"}
+{"ts":"2026-09-16 01:18:01,757","level":"INFO","logger":"werkzeug","msg":"192.168.1.183 - - [16/Sep/2026 01:18:01] "[36mGET /static/css/theme.css HTTP/1.1[0m" 304 -"}
+{"ts":"2026-09-16 01:18:01,903","level":"INFO","logger":"werkzeug","msg":"192.168.1.183 - - [16/Sep/2026 01:18:01] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -"}
+{"ts":"2026-09-16 01:23:02,239","level":"INFO","logger":"werkzeug","msg":"192.168.1.183 - - [16/Sep/2026 01:23:02] "GET /?max_cost=2 HTTP/1.1" 200 -"}
+{"ts":"2026-09-16 01:23:02,279","level":"INFO","logger":"werkzeug","msg":"192.168.1.183 - - [16/Sep/2026 01:23:02] "[36mGET /static/css/theme.css HTTP/1.1[0m" 304 -"}
+{"ts":"2026-09-16 01:23:02,297","level":"INFO","logger":"werkzeug","msg":"192.168.1.183 - - [16/Sep/2026 01:23:02] "[36mGET /static/css/theme.css HTTP/1.1[0m" 304 -"}
+{"ts":"2026-09-16 01:23:02,385","level":"INFO","logger":"werkzeug","msg":"192.168.1.183 - - [16/Sep/2026 01:23:02] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -"}
+{"ts":"2026-09-16 01:26:41,813","level":"INFO","logger":"engine.opportunities","msg":"oportunidades recalculadas {'tradeups': 3000, 'tradeups_profitable': 233, 'tradeups_robust': 0, 'resale': 7854, 'resale_profitable': 4237, 'resale_robust': 0}"}
+{"ts":"2026-09-16 01:28:02,706","level":"INFO","logger":"werkzeug","msg":"192.168.1.183 - - [16/Sep/2026 01:28:02] "GET /?max_cost=2 HTTP/1.1" 200 -"}
+{"ts":"2026-09-16 01:28:02,746","level":"INFO","logger":"werkzeug","msg":"192.168.1.183 - - [16/Sep/2026 01:28:02] "[36mGET /static/css/theme.css HTTP/1.1[0m" 304 -"}
+{"ts":"2026-09-16 01:28:02,766","level":"INFO","logger":"werkzeug","msg":"192.168.1.183 - - [16/Sep/2026 01:28:02] "[36mGET /static/css/theme.css HTTP/1.1[0m" 304 -"}
+{"ts":"2026-09-16 01:28:02,848","level":"INFO","logger":"werkzeug","msg":"192.168.1.183 - - [16/Sep/2026 01:28:02] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -"}
+{"ts":"2026-09-16 01:33:03,167","level":"INFO","logger":"werkzeug","msg":"192.168.1.183 - - [16/Sep/2026 01:33:03] "GET /?max_cost=2 HTTP/1.1" 200 -"}
+{"ts":"2026-09-16 01:33:03,209","level":"INFO","logger":"werkzeug","msg":"192.168.1.183 - - [16/Sep/2026 01:33:03] "[36mGET /static/css/theme.css HTTP/1.1[0m" 304 -"}
+{"ts":"2026-09-16 01:33:03,228","level":"INFO","logger":"werkzeug","msg":"192.168.1.183 - - [16/Sep/2026 01:33:03] "[36mGET /static/css/theme.css HTTP/1.1[0m" 304 -"}
+{"ts":"2026-09-16 01:33:03,317","level":"INFO","logger":"werkzeug","msg":"192.168.1.183 - - [16/Sep/2026 01:33:03] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -"}
+{"ts":"2026-09-16 01:36:39,521","level":"WARNING","logger":"collectors.base","msg":"source=steam status=429 (sem retry)"}
+{"ts":"2026-09-16 01:36:40,752","level":"INFO","logger":"collectors.base","msg":"source=skinport gravados=16060"}
+{"ts":"2026-09-16 01:36:42,165","level":"INFO","logger":"engine.opportunities","msg":"oportunidades recalculadas {'tradeups': 3000, 'tradeups_profitable': 233, 'tradeups_robust': 0, 'resale': 7854, 'resale_profitable': 4237, 'resale_robust': 0}"}
+{"ts":"2026-09-16 01:36:42,626","level":"WARNING","logger":"collectors.base","msg":"source=steam status=429 (sem retry)"}
+{"ts":"2026-09-16 01:36:46,073","level":"WARNING","logger":"collectors.base","msg":"source=steam status=429 (sem retry)"}
+{"ts":"2026-09-16 01:36:49,618","level":"WARNING","logger":"collectors.base","msg":"source=steam status=429 (sem retry)"}
+{"ts":"2026-09-16 01:36:53,011","level":"WARNING","logger":"collectors.base","msg":"source=steam status=429 (sem retry)"}
+{"ts":"2026-09-16 01:36:53,011","level":"ERROR","logger":"collectors.steam","msg":"source=steam 5 falhas consecutivas — IP provavelmente limitado (429) ou cookies em falta; run abortado"}
+{"ts":"2026-09-16 01:38:03,632","level":"INFO","logger":"werkzeug","msg":"192.168.1.183 - - [16/Sep/2026 01:38:03] "GET /?max_cost=2 HTTP/1.1" 200 -"}
+{"ts":"2026-09-16 01:38:03,670","level":"INFO","logger":"werkzeug","msg":"192.168.1.183 - - [16/Sep/2026 01:38:03] "[36mGET /static/css/theme.css HTTP/1.1[0m" 304 -"}
+{"ts":"2026-09-16 01:38:03,691","level":"INFO","logger":"werkzeug","msg":"192.168.1.183 - - [16/Sep/2026 01:38:03] "[36mGET /static/css/theme.css HTTP/1.1[0m" 304 -"}
+{"ts":"2026-09-16 01:38:03,784","level":"INFO","logger":"werkzeug","msg":"192.168.1.183 - - [16/Sep/2026 01:38:03] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -"}
+{"ts":"2026-09-16 01:43:04,098","level":"INFO","logger":"werkzeug","msg":"192.168.1.183 - - [16/Sep/2026 01:43:04] "GET /?max_cost=2 HTTP/1.1" 200 -"}
+{"ts":"2026-09-16 01:43:04,137","level":"INFO","logger":"werkzeug","msg":"192.168.1.183 - - [16/Sep/2026 01:43:04] "[36mGET /static/css/theme.css HTTP/1.1[0m" 304 -"}
+{"ts":"2026-09-16 01:43:04,157","level":"INFO","logger":"werkzeug","msg":"192.168.1.183 - - [16/Sep/2026 01:43:04] "[36mGET /static/css/theme.css HTTP/1.1[0m" 304 -"}
+{"ts":"2026-09-16 01:43:04,248","level":"INFO","logger":"werkzeug","msg":"192.168.1.183 - - [16/Sep/2026 01:43:04] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -"}
+{"ts":"2026-09-16 01:46:42,171","level":"INFO","logger":"engine.opportunities","msg":"oportunidades recalculadas {'tradeups': 3000, 'tradeups_profitable': 233, 'tradeups_robust': 0, 'resale': 7854, 'resale_profitable': 4237, 'resale_robust': 0}"}
+{"ts":"2026-09-16 01:48:04,566","level":"INFO","logger":"werkzeug","msg":"192.168.1.183 - - [16/Sep/2026 01:48:04] "GET /?max_cost=2 HTTP/1.1" 200 -"}
+{"ts":"2026-09-16 01:48:04,605","level":"INFO","logger":"werkzeug","msg":"192.168.1.183 - - [16/Sep/2026 01:48:04] "[36mGET /static/css/theme.css HTTP/1.1[0m" 304 -"}
+{"ts":"2026-09-16 01:48:04,626","level":"INFO","logger":"werkzeug","msg":"192.168.1.183 - - [16/Sep/2026 01:48:04] "[36mGET /static/css/theme.css HTTP/1.1[0m" 304 -"}
+{"ts":"2026-09-16 01:48:04,717","level":"INFO","logger":"werkzeug","msg":"192.168.1.183 - - [16/Sep/2026 01:48:04] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -"}
+{"ts":"2026-09-16 01:53:05,044","level":"INFO","logger":"werkzeug","msg":"192.168.1.183 - - [16/Sep/2026 01:53:05] "GET /?max_cost=2 HTTP/1.1" 200 -"}
+{"ts":"2026-09-16 01:53:05,084","level":"INFO","logger":"werkzeug","msg":"192.168.1.183 - - [16/Sep/2026 01:53:05] "[36mGET /static/css/theme.css HTTP/1.1[0m" 304 -"}
+{"ts":"2026-09-16 01:53:05,106","level":"INFO","logger":"werkzeug","msg":"192.168.1.183 - - [16/Sep/2026 01:53:05] "[36mGET /static/css/theme.css HTTP/1.1[0m" 304 -"}
+{"ts":"2026-09-16 01:53:05,197","level":"INFO","logger":"werkzeug","msg":"192.168.1.183 - - [16/Sep/2026 01:53:05] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -"}
+{"ts":"2026-09-16 01:56:41,201","level":"INFO","logger":"collectors.base","msg":"source=skinport gravados=16056"}
+{"ts":"2026-09-16 01:56:42,608","level":"INFO","logger":"engine.opportunities","msg":"oportunidades recalculadas {'tradeups': 3000, 'tradeups_profitable': 233, 'tradeups_robust': 0, 'resale': 7854, 'resale_profitable': 4237, 'resale_robust': 0}"}
+{"ts":"2026-09-16 01:58:05,519","level":"INFO","logger":"werkzeug","msg":"192.168.1.183 - - [16/Sep/2026 01:58:05] "GET /?max_cost=2 HTTP/1.1" 200 -"}
+{"ts":"2026-09-16 01:58:05,558","level":"INFO","logger":"werkzeug","msg":"192.168.1.183 - - [16/Sep/2026 01:58:05] "[36mGET /static/css/theme.css HTTP/1.1[0m" 304 -"}
+{"ts":"2026-09-16 01:58:05,579","level":"INFO","logger":"werkzeug","msg":"192.168.1.183 - - [16/Sep/2026 01:58:05] "[36mGET /static/css/theme.css HTTP/1.1[0m" 304 -"}
+{"ts":"2026-09-16 01:58:05,661","level":"INFO","logger":"werkzeug","msg":"192.168.1.183 - - [16/Sep/2026 01:58:05] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -"}
+{"ts":"2026-09-16 02:03:05,988","level":"INFO","logger":"werkzeug","msg":"192.168.1.183 - - [16/Sep/2026 02:03:05] "GET /?max_cost=2 HTTP/1.1" 200 -"}
+{"ts":"2026-09-16 02:03:06,026","level":"INFO","logger":"werkzeug","msg":"192.168.1.183 - - [16/Sep/2026 02:03:06] "[36mGET /static/css/theme.css HTTP/1.1[0m" 304 -"}
+{"ts":"2026-09-16 02:03:06,047","level":"INFO","logger":"werkzeug","msg":"192.168.1.183 - - [16/Sep/2026 02:03:06] "[36mGET /static/css/theme.css HTTP/1.1[0m" 304 -"}
+{"ts":"2026-09-16 02:03:06,128","level":"INFO","logger":"werkzeug","msg":"192.168.1.183 - - [16/Sep/2026 02:03:06] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -"}
+{"ts":"2026-09-16 02:06:39,436","level":"WARNING","logger":"collectors.base","msg":"source=steam status=429 (sem retry)"}
+{"ts":"2026-09-16 02:06:42,517","level":"WARNING","logger":"collectors.base","msg":"source=steam status=429 (sem retry)"}
+{"ts":"2026-09-16 02:06:42,579","level":"INFO","logger":"engine.opportunities","msg":"oportunidades recalculadas {'tradeups': 3000, 'tradeups_profitable': 233, 'tradeups_robust': 0, 'resale': 7854, 'resale_profitable': 4233, 'resale_robust': 0}"}
+{"ts":"2026-09-16 02:06:46,303","level":"WARNING","logger":"collectors.base","msg":"source=steam status=429 (sem retry)"}
+{"ts":"2026-09-16 02:06:49,524","level":"WARNING","logger":"collectors.base","msg":"source=steam status=429 (sem retry)"}
+{"ts":"2026-09-16 02:06:53,011","level":"WARNING","logger":"collectors.base","msg":"source=steam status=429 (sem retry)"}
+{"ts":"2026-09-16 02:06:53,011","level":"ERROR","logger":"collectors.steam","msg":"source=steam 5 falhas consecutivas — IP provavelmente limitado (429) ou cookies em falta; run abortado"}
+{"ts":"2026-09-16 02:08:06,455","level":"INFO","logger":"werkzeug","msg":"192.168.1.183 - - [16/Sep/2026 02:08:06] "GET /?max_cost=2 HTTP/1.1" 200 -"}
+{"ts":"2026-09-16 02:08:06,493","level":"INFO","logger":"werkzeug","msg":"192.168.1.183 - - [16/Sep/2026 02:08:06] "[36mGET /static/css/theme.css HTTP/1.1[0m" 304 -"}
+{"ts":"2026-09-16 02:08:06,516","level":"INFO","logger":"werkzeug","msg":"192.168.1.183 - - [16/Sep/2026 02:08:06] "[36mGET /static/css/theme.css HTTP/1.1[0m" 304 -"}
+{"ts":"2026-09-16 02:08:06,611","level":"INFO","logger":"werkzeug","msg":"192.168.1.183 - - [16/Sep/2026 02:08:06] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -"}
+{"ts":"2026-09-16 02:13:06,936","level":"INFO","logger":"werkzeug","msg":"192.168.1.183 - - [16/Sep/2026 02:13:06] "GET /?max_cost=2 HTTP/1.1" 200 -"}
+{"ts":"2026-09-16 02:13:06,977","level":"INFO","logger":"werkzeug","msg":"192.168.1.183 - - [16/Sep/2026 02:13:06] "[36mGET /static/css/theme.css HTTP/1.1[0m" 304 -"}
+{"ts":"2026-09-16 02:13:06,996","level":"INFO","logger":"werkzeug","msg":"192.168.1.183 - - [16/Sep/2026 02:13:06] "[36mGET /static/css/theme.css HTTP/1.1[0m" 304 -"}
+{"ts":"2026-09-16 02:13:07,084","level":"INFO","logger":"werkzeug","msg":"192.168.1.183 - - [16/Sep/2026 02:13:07] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -"}
+{"ts":"2026-09-16 02:16:40,663","level":"INFO","logger":"collectors.base","msg":"source=skinport gravados=16056"}
+{"ts":"2026-09-16 02:16:42,868","level":"INFO","logger":"engine.opportunities","msg":"oportunidades recalculadas {'tradeups': 3000, 'tradeups_profitable': 233, 'tradeups_robust': 0, 'resale': 7854, 'resale_profitable': 4233, 'resale_robust': 0}"}
+{"ts":"2026-09-16 02:18:07,403","level":"INFO","logger":"werkzeug","msg":"192.168.1.183 - - [16/Sep/2026 02:18:07] "GET /?max_cost=2 HTTP/1.1" 200 -"}
+{"ts":"2026-09-16 02:18:07,444","level":"INFO","logger":"werkzeug","msg":"192.168.1.183 - - [16/Sep/2026 02:18:07] "[36mGET /static/css/theme.css HTTP/1.1[0m" 304 -"}
+{"ts":"2026-09-16 02:18:07,460","level":"INFO","logger":"werkzeug","msg":"192.168.1.183 - - [16/Sep/2026 02:18:07] "[36mGET /static/css/theme.css HTTP/1.1[0m" 304 -"}
+{"ts":"2026-09-16 02:18:07,544","level":"INFO","logger":"werkzeug","msg":"192.168.1.183 - - [16/Sep/2026 02:18:07] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -"}
+{"ts":"2026-09-16 02:23:07,866","level":"INFO","logger":"werkzeug","msg":"192.168.1.183 - - [16/Sep/2026 02:23:07] "GET /?max_cost=2 HTTP/1.1" 200 -"}
+{"ts":"2026-09-16 02:23:07,904","level":"INFO","logger":"werkzeug","msg":"192.168.1.183 - - [16/Sep/2026 02:23:07] "[36mGET /static/css/theme.css HTTP/1.1[0m" 304 -"}
+{"ts":"2026-09-16 02:23:07,925","level":"INFO","logger":"werkzeug","msg":"192.168.1.183 - - [16/Sep/2026 02:23:07] "[36mGET /static/css/theme.css HTTP/1.1[0m" 304 -"}
+{"ts":"2026-09-16 02:23:08,015","level":"INFO","logger":"werkzeug","msg":"192.168.1.183 - - [16/Sep/2026 02:23:08] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -"}
+{"ts":"2026-09-16 02:26:42,853","level":"INFO","logger":"engine.opportunities","msg":"oportunidades recalculadas {'tradeups': 3000, 'tradeups_profitable': 233, 'tradeups_robust': 0, 'resale': 7854, 'resale_profitable': 4235, 'resale_robust': 0}"}
+{"ts":"2026-09-16 02:28:08,344","level":"INFO","logger":"werkzeug","msg":"192.168.1.183 - - [16/Sep/2026 02:28:08] "GET /?max_cost=2 HTTP/1.1" 200 -"}
+{"ts":"2026-09-16 02:28:08,385","level":"INFO","logger":"werkzeug","msg":"192.168.1.183 - - [16/Sep/2026 02:28:08] "[36mGET /static/css/theme.css HTTP/1.1[0m" 304 -"}
+{"ts":"2026-09-16 02:28:08,401","level":"INFO","logger":"werkzeug","msg":"192.168.1.183 - - [16/Sep/2026 02:28:08] "[36mGET /static/css/theme.css HTTP/1.1[0m" 304 -"}
+{"ts":"2026-09-16 02:28:08,486","level":"INFO","logger":"werkzeug","msg":"192.168.1.183 - - [16/Sep/2026 02:28:08] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -"}
+{"ts":"2026-09-16 02:33:08,806","level":"INFO","logger":"werkzeug","msg":"192.168.1.183 - - [16/Sep/2026 02:33:08] "GET /?max_cost=2 HTTP/1.1" 200 -"}
+{"ts":"2026-09-16 02:33:08,845","level":"INFO","logger":"werkzeug","msg":"192.168.1.183 - - [16/Sep/2026 02:33:08] "[36mGET /static/css/theme.css HTTP/1.1[0m" 304 -"}
+{"ts":"2026-09-16 02:33:08,865","level":"INFO","logger":"werkzeug","msg":"192.168.1.183 - - [16/Sep/2026 02:33:08] "[36mGET /static/css/theme.css HTTP/1.1[0m" 304 -"}
+{"ts":"2026-09-16 02:33:08,969","level":"INFO","logger":"werkzeug","msg":"192.168.1.183 - - [16/Sep/2026 02:33:08] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -"}
+{"ts":"2026-09-16 02:36:39,455","level":"WARNING","logger":"collectors.base","msg":"source=steam status=429 (sem retry)"}
+{"ts":"2026-09-16 02:36:40,815","level":"INFO","logger":"collectors.base","msg":"source=skinport gravados=16058"}
+{"ts":"2026-09-16 02:36:42,540","level":"WARNING","logger":"collectors.base","msg":"source=steam status=429 (sem retry)"}
+{"ts":"2026-09-16 02:36:43,284","level":"INFO","logger":"engine.opportunities","msg":"oportunidades recalculadas {'tradeups': 3000, 'tradeups_profitable': 233, 'tradeups_robust': 0, 'resale': 7854, 'resale_profitable': 4235, 'resale_robust': 0}"}
+{"ts":"2026-09-16 02:36:46,409","level":"WARNING","logger":"collectors.base","msg":"source=steam status=429 (sem retry)"}
+{"ts":"2026-09-16 02:36:49,539","level":"WARNING","logger":"collectors.base","msg":"source=steam status=429 (sem retry)"}
+{"ts":"2026-09-16 02:36:53,028","level":"WARNING","logger":"collectors.base","msg":"source=steam status=429 (sem retry)"}
+{"ts":"2026-09-16 02:36:53,028","level":"ERROR","logger":"collectors.steam","msg":"source=steam 5 falhas consecutivas — IP provavelmente limitado (429) ou cookies em falta; run abortado"}
+{"ts":"2026-09-16 02:38:09,299","level":"INFO","logger":"werkzeug","msg":"192.168.1.183 - - [16/Sep/2026 02:38:09] "GET /?max_cost=2 HTTP/1.1" 200 -"}
+{"ts":"2026-09-16 02:38:09,341","level":"INFO","logger":"werkzeug","msg":"192.168.1.183 - - [16/Sep/2026 02:38:09] "[36mGET /static/css/theme.css HTTP/1.1[0m" 304 -"}
+{"ts":"2026-09-16 02:38:09,363","level":"INFO","logger":"werkzeug","msg":"192.168.1.183 - - [16/Sep/2026 02:38:09] "[36mGET /static/css/theme.css HTTP/1.1[0m" 304 -"}
+{"ts":"2026-09-16 02:38:09,449","level":"INFO","logger":"werkzeug","msg":"192.168.1.183 - - [16/Sep/2026 02:38:09] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -"}
+{"ts":"2026-09-16 02:43:09,769","level":"INFO","logger":"werkzeug","msg":"192.168.1.183 - - [16/Sep/2026 02:43:09] "GET /?max_cost=2 HTTP/1.1" 200 -"}
+{"ts":"2026-09-16 02:43:09,809","level":"INFO","logger":"werkzeug","msg":"192.168.1.183 - - [16/Sep/2026 02:43:09] "[36mGET /static/css/theme.css HTTP/1.1[0m" 304 -"}
+{"ts":"2026-09-16 02:43:09,829","level":"INFO","logger":"werkzeug","msg":"192.168.1.183 - - [16/Sep/2026 02:43:09] "[36mGET /static/css/theme.css HTTP/1.1[0m" 304 -"}
+{"ts":"2026-09-16 02:43:09,917","level":"INFO","logger":"werkzeug","msg":"192.168.1.183 - - [16/Sep/2026 02:43:09] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -"}
+{"ts":"2026-09-16 02:46:43,231","level":"INFO","logger":"engine.opportunities","msg":"oportunidades recalculadas {'tradeups': 3000, 'tradeups_profitable': 243, 'tradeups_robust': 0, 'resale': 7854, 'resale_profitable': 4223, 'resale_robust': 0}"}
+{"ts":"2026-09-16 02:48:10,251","level":"INFO","logger":"werkzeug","msg":"192.168.1.183 - - [16/Sep/2026 02:48:10] "GET /?max_cost=2 HTTP/1.1" 200 -"}
+{"ts":"2026-09-16 02:48:10,293","level":"INFO","logger":"werkzeug","msg":"192.168.1.183 - - [16/Sep/2026 02:48:10] "[36mGET /static/css/theme.css HTTP/1.1[0m" 304 -"}
+{"ts":"2026-09-16 02:48:10,314","level":"INFO","logger":"werkzeug","msg":"192.168.1.183 - - [16/Sep/2026 02:48:10] "[36mGET /static/css/theme.css HTTP/1.1[0m" 304 -"}
+{"ts":"2026-09-16 02:48:10,408","level":"INFO","logger":"werkzeug","msg":"192.168.1.183 - - [16/Sep/2026 02:48:10] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -"}
+{"ts":"2026-09-16 02:53:10,732","level":"INFO","logger":"werkzeug","msg":"192.168.1.183 - - [16/Sep/2026 02:53:10] "GET /?max_cost=2 HTTP/1.1" 200 -"}
+{"ts":"2026-09-16 02:53:10,773","level":"INFO","logger":"werkzeug","msg":"192.168.1.183 - - [16/Sep/2026 02:53:10] "[36mGET /static/css/theme.css HTTP/1.1[0m" 304 -"}
+{"ts":"2026-09-16 02:53:10,792","level":"INFO","logger":"werkzeug","msg":"192.168.1.183 - - [16/Sep/2026 02:53:10] "[36mGET /static/css/theme.css HTTP/1.1[0m" 304 -"}
+{"ts":"2026-09-16 02:53:10,885","level":"INFO","logger":"werkzeug","msg":"192.168.1.183 - - [16/Sep/2026 02:53:10] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -"}
+{"ts":"2026-09-16 02:56:40,775","level":"INFO","logger":"collectors.base","msg":"source=skinport gravados=16058"}
+{"ts":"2026-09-16 02:56:43,583","level":"INFO","logger":"engine.opportunities","msg":"oportunidades recalculadas {'tradeups': 3000, 'tradeups_profitable': 243, 'tradeups_robust': 0, 'resale': 7854, 'resale_profitable': 4223, 'resale_robust': 0}"}
+{"ts":"2026-09-16 02:58:11,214","level":"INFO","logger":"werkzeug","msg":"192.168.1.183 - - [16/Sep/2026 02:58:11] "GET /?max_cost=2 HTTP/1.1" 200 -"}
+{"ts":"2026-09-16 02:58:11,252","level":"INFO","logger":"werkzeug","msg":"192.168.1.183 - - [16/Sep/2026 02:58:11] "[36mGET /static/css/theme.css HTTP/1.1[0m" 304 -"}
+{"ts":"2026-09-16 02:58:11,274","level":"INFO","logger":"werkzeug","msg":"192.168.1.183 - - [16/Sep/2026 02:58:11] "[36mGET /static/css/theme.css HTTP/1.1[0m" 304 -"}
+{"ts":"2026-09-16 02:58:11,355","level":"INFO","logger":"werkzeug","msg":"192.168.1.183 - - [16/Sep/2026 02:58:11] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -"}
+{"ts":"2026-09-16 03:03:11,683","level":"INFO","logger":"werkzeug","msg":"192.168.1.183 - - [16/Sep/2026 03:03:11] "GET /?max_cost=2 HTTP/1.1" 200 -"}
+{"ts":"2026-09-16 03:03:11,722","level":"INFO","logger":"werkzeug","msg":"192.168.1.183 - - [16/Sep/2026 03:03:11] "[36mGET /static/css/theme.css HTTP/1.1[0m" 304 -"}
+{"ts":"2026-09-16 03:03:11,742","level":"INFO","logger":"werkzeug","msg":"192.168.1.183 - - [16/Sep/2026 03:03:11] "[36mGET /static/css/theme.css HTTP/1.1[0m" 304 -"}
+{"ts":"2026-09-16 03:03:11,837","level":"INFO","logger":"werkzeug","msg":"192.168.1.183 - - [16/Sep/2026 03:03:11] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -"}
+{"ts":"2026-09-16 03:06:39,415","level":"WARNING","logger":"collectors.base","msg":"source=steam status=429 (sem retry)"}
+{"ts":"2026-09-16 03:06:42,527","level":"WARNING","logger":"collectors.base","msg":"source=steam status=429 (sem retry)"}
+{"ts":"2026-09-16 03:06:43,615","level":"INFO","logger":"engine.opportunities","msg":"oportunidades recalculadas {'tradeups': 3000, 'tradeups_profitable': 243, 'tradeups_robust': 0, 'resale': 7854, 'resale_profitable': 4223, 'resale_robust': 0}"}
+{"ts":"2026-09-16 03:06:46,041","level":"WARNING","logger":"collectors.base","msg":"source=steam status=429 (sem retry)"}
+{"ts":"2026-09-16 03:06:49,568","level":"WARNING","logger":"collectors.base","msg":"source=steam status=429 (sem retry)"}
+{"ts":"2026-09-16 03:06:53,063","level":"WARNING","logger":"collectors.base","msg":"source=steam status=429 (sem retry)"}
+{"ts":"2026-09-16 03:06:53,063","level":"ERROR","logger":"collectors.steam","msg":"source=steam 5 falhas consecutivas — IP provavelmente limitado (429) ou cookies em falta; run abortado"}
+{"ts":"2026-09-16 03:08:12,157","level":"INFO","logger":"werkzeug","msg":"192.168.1.183 - - [16/Sep/2026 03:08:12] "GET /?max_cost=2 HTTP/1.1" 200 -"}
+{"ts":"2026-09-16 03:08:12,198","level":"INFO","logger":"werkzeug","msg":"192.168.1.183 - - [16/Sep/2026 03:08:12] "[36mGET /static/css/theme.css HTTP/1.1[0m" 304 -"}
+{"ts":"2026-09-16 03:08:12,217","level":"INFO","logger":"werkzeug","msg":"192.168.1.183 - - [16/Sep/2026 03:08:12] "[36mGET /static/css/theme.css HTTP/1.1[0m" 304 -"}
+{"ts":"2026-09-16 03:08:12,303","level":"INFO","logger":"werkzeug","msg":"192.168.1.183 - - [16/Sep/2026 03:08:12] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -"}
+{"ts":"2026-09-16 03:13:12,625","level":"INFO","logger":"werkzeug","msg":"192.168.1.183 - - [16/Sep/2026 03:13:12] "GET /?max_cost=2 HTTP/1.1" 200 -"}
+{"ts":"2026-09-16 03:13:12,663","level":"INFO","logger":"werkzeug","msg":"192.168.1.183 - - [16/Sep/2026 03:13:12] "[36mGET /static/css/theme.css HTTP/1.1[0m" 304 -"}
+{"ts":"2026-09-16 03:13:12,686","level":"INFO","logger":"werkzeug","msg":"192.168.1.183 - - [16/Sep/2026 03:13:12] "[36mGET /static/css/theme.css HTTP/1.1[0m" 304 -"}
+{"ts":"2026-09-16 03:13:12,790","level":"INFO","logger":"werkzeug","msg":"192.168.1.183 - - [16/Sep/2026 03:13:12] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -"}
+{"ts":"2026-09-16 03:16:40,818","level":"INFO","logger":"collectors.base","msg":"source=skinport gravados=16058"}
+{"ts":"2026-09-16 03:16:43,985","level":"INFO","logger":"engine.opportunities","msg":"oportunidades recalculadas {'tradeups': 3000, 'tradeups_profitable': 243, 'tradeups_robust': 0, 'resale': 7854, 'resale_profitable': 4223, 'resale_robust': 0}"}
+{"ts":"2026-09-16 03:18:13,128","level":"INFO","logger":"werkzeug","msg":"192.168.1.183 - - [16/Sep/2026 03:18:13] "GET /?max_cost=2 HTTP/1.1" 200 -"}
+{"ts":"2026-09-16 03:18:13,170","level":"INFO","logger":"werkzeug","msg":"192.168.1.183 - - [16/Sep/2026 03:18:13] "[36mGET /static/css/theme.css HTTP/1.1[0m" 304 -"}
+{"ts":"2026-09-16 03:18:13,190","level":"INFO","logger":"werkzeug","msg":"192.168.1.183 - - [16/Sep/2026 03:18:13] "[36mGET /static/css/theme.css HTTP/1.1[0m" 304 -"}
+{"ts":"2026-09-16 03:18:13,274","level":"INFO","logger":"werkzeug","msg":"192.168.1.183 - - [16/Sep/2026 03:18:13] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -"}
+{"ts":"2026-09-16 03:23:13,599","level":"INFO","logger":"werkzeug","msg":"192.168.1.183 - - [16/Sep/2026 03:23:13] "GET /?max_cost=2 HTTP/1.1" 200 -"}
+{"ts":"2026-09-16 03:23:13,640","level":"INFO","logger":"werkzeug","msg":"192.168.1.183 - - [16/Sep/2026 03:23:13] "[36mGET /static/css/theme.css HTTP/1.1[0m" 304 -"}
+{"ts":"2026-09-16 03:23:13,662","level":"INFO","logger":"werkzeug","msg":"192.168.1.183 - - [16/Sep/2026 03:23:13] "[36mGET /static/css/theme.css HTTP/1.1[0m" 304 -"}
+{"ts":"2026-09-16 03:23:13,741","level":"INFO","logger":"werkzeug","msg":"192.168.1.183 - - [16/Sep/2026 03:23:13] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -"}
+{"ts":"2026-09-16 03:26:43,873","level":"INFO","logger":"engine.opportunities","msg":"oportunidades recalculadas {'tradeups': 3000, 'tradeups_profitable': 243, 'tradeups_robust': 0, 'resale': 7854, 'resale_profitable': 4227, 'resale_robust': 0}"}
+{"ts":"2026-09-16 03:28:14,070","level":"INFO","logger":"werkzeug","msg":"192.168.1.183 - - [16/Sep/2026 03:28:14] "GET /?max_cost=2 HTTP/1.1" 200 -"}
+{"ts":"2026-09-16 03:28:14,110","level":"INFO","logger":"werkzeug","msg":"192.168.1.183 - - [16/Sep/2026 03:28:14] "[36mGET /static/css/theme.css HTTP/1.1[0m" 304 -"}
+{"ts":"2026-09-16 03:28:14,129","level":"INFO","logger":"werkzeug","msg":"192.168.1.183 - - [16/Sep/2026 03:28:14] "[36mGET /static/css/theme.css HTTP/1.1[0m" 304 -"}
+{"ts":"2026-09-16 03:28:14,222","level":"INFO","logger":"werkzeug","msg":"192.168.1.183 - - [16/Sep/2026 03:28:14] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -"}
+{"ts":"2026-09-16 03:33:14,555","level":"INFO","logger":"werkzeug","msg":"192.168.1.183 - - [16/Sep/2026 03:33:14] "GET /?max_cost=2 HTTP/1.1" 200 -"}
+{"ts":"2026-09-16 03:33:14,594","level":"INFO","logger":"werkzeug","msg":"192.168.1.183 - - [16/Sep/2026 03:33:14] "[36mGET /static/css/theme.css HTTP/1.1[0m" 304 -"}
+{"ts":"2026-09-16 03:33:14,615","level":"INFO","logger":"werkzeug","msg":"192.168.1.183 - - [16/Sep/2026 03:33:14] "[36mGET /static/css/theme.css HTTP/1.1[0m" 304 -"}
+{"ts":"2026-09-16 03:33:14,702","level":"INFO","logger":"werkzeug","msg":"192.168.1.183 - - [16/Sep/2026 03:33:14] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -"}
+{"ts":"2026-09-16 03:36:39,440","level":"WARNING","logger":"collectors.base","msg":"source=steam status=429 (sem retry)"}
+{"ts":"2026-09-16 03:36:40,944","level":"INFO","logger":"collectors.base","msg":"source=skinport gravados=16058"}
+{"ts":"2026-09-16 03:36:42,572","level":"WARNING","logger":"collectors.base","msg":"source=steam status=429 (sem retry)"}
+{"ts":"2026-09-16 03:36:44,328","level":"INFO","logger":"engine.opportunities","msg":"oportunidades recalculadas {'tradeups': 3000, 'tradeups_profitable': 243, 'tradeups_robust': 0, 'resale': 7854, 'resale_profitable': 4227, 'resale_robust': 0}"}
+{"ts":"2026-09-16 03:36:46,055","level":"WARNING","logger":"collectors.base","msg":"source=steam status=429 (sem retry)"}
+{"ts":"2026-09-16 03:36:49,514","level":"WARNING","logger":"collectors.base","msg":"source=steam status=429 (sem retry)"}
+{"ts":"2026-09-16 03:36:53,036","level":"WARNING","logger":"collectors.base","msg":"source=steam status=429 (sem retry)"}
+{"ts":"2026-09-16 03:36:53,037","level":"ERROR","logger":"collectors.steam","msg":"source=steam 5 falhas consecutivas — IP provavelmente limitado (429) ou cookies em falta; run abortado"}
+{"ts":"2026-09-16 03:38:15,016","level":"INFO","logger":"werkzeug","msg":"192.168.1.183 - - [16/Sep/2026 03:38:15] "GET /?max_cost=2 HTTP/1.1" 200 -"}
+{"ts":"2026-09-16 03:38:15,056","level":"INFO","logger":"werkzeug","msg":"192.168.1.183 - - [16/Sep/2026 03:38:15] "[36mGET /static/css/theme.css HTTP/1.1[0m" 304 -"}
+{"ts":"2026-09-16 03:38:15,077","level":"INFO","logger":"werkzeug","msg":"192.168.1.183 - - [16/Sep/2026 03:38:15] "[36mGET /static/css/theme.css HTTP/1.1[0m" 304 -"}
+{"ts":"2026-09-16 03:38:15,155","level":"INFO","logger":"werkzeug","msg":"192.168.1.183 - - [16/Sep/2026 03:38:15] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -"}
+{"ts":"2026-09-16 03:43:15,503","level":"INFO","logger":"werkzeug","msg":"192.168.1.183 - - [16/Sep/2026 03:43:15] "GET /?max_cost=2 HTTP/1.1" 200 -"}
+{"ts":"2026-09-16 03:43:15,544","level":"INFO","logger":"werkzeug","msg":"192.168.1.183 - - [16/Sep/2026 03:43:15] "[36mGET /static/css/theme.css HTTP/1.1[0m" 304 -"}
+{"ts":"2026-09-16 03:43:15,564","level":"INFO","logger":"werkzeug","msg":"192.168.1.183 - - [16/Sep/2026 03:43:15] "[36mGET /static/css/theme.css HTTP/1.1[0m" 304 -"}
+{"ts":"2026-09-16 03:43:15,648","level":"INFO","logger":"werkzeug","msg":"192.168.1.183 - - [16/Sep/2026 03:43:15] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -"}
+{"ts":"2026-09-16 03:46:44,211","level":"INFO","logger":"engine.opportunities","msg":"oportunidades recalculadas {'tradeups': 3000, 'tradeups_profitable': 243, 'tradeups_robust': 0, 'resale': 7854, 'resale_profitable': 4229, 'resale_robust': 0}"}
+{"ts":"2026-09-16 03:48:15,987","level":"INFO","logger":"werkzeug","msg":"192.168.1.183 - - [16/Sep/2026 03:48:15] "GET /?max_cost=2 HTTP/1.1" 200 -"}
+{"ts":"2026-09-16 03:48:16,026","level":"INFO","logger":"werkzeug","msg":"192.168.1.183 - - [16/Sep/2026 03:48:16] "[36mGET /static/css/theme.css HTTP/1.1[0m" 304 -"}
+{"ts":"2026-09-16 03:48:16,046","level":"INFO","logger":"werkzeug","msg":"192.168.1.183 - - [16/Sep/2026 03:48:16] "[36mGET /static/css/theme.css HTTP/1.1[0m" 304 -"}
+{"ts":"2026-09-16 03:48:16,129","level":"INFO","logger":"werkzeug","msg":"192.168.1.183 - - [16/Sep/2026 03:48:16] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -"}
+{"ts":"2026-09-16 03:53:16,459","level":"INFO","logger":"werkzeug","msg":"192.168.1.183 - - [16/Sep/2026 03:53:16] "GET /?max_cost=2 HTTP/1.1" 200 -"}
+{"ts":"2026-09-16 03:53:16,500","level":"INFO","logger":"werkzeug","msg":"192.168.1.183 - - [16/Sep/2026 03:53:16] "[36mGET /static/css/theme.css HTTP/1.1[0m" 304 -"}
+{"ts":"2026-09-16 03:53:16,519","level":"INFO","logger":"werkzeug","msg":"192.168.1.183 - - [16/Sep/2026 03:53:16] "[36mGET /static/css/theme.css HTTP/1.1[0m" 304 -"}
+{"ts":"2026-09-16 03:53:16,610","level":"INFO","logger":"werkzeug","msg":"192.168.1.183 - - [16/Sep/2026 03:53:16] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -"}
+{"ts":"2026-09-16 03:56:40,851","level":"INFO","logger":"collectors.base","msg":"source=skinport gravados=16058"}
+{"ts":"2026-09-16 03:56:44,706","level":"INFO","logger":"engine.opportunities","msg":"oportunidades recalculadas {'tradeups': 3000, 'tradeups_profitable': 243, 'tradeups_robust': 0, 'resale': 7854, 'resale_profitable': 4229, 'resale_robust': 0}"}
+{"ts":"2026-09-16 03:58:16,948","level":"INFO","logger":"werkzeug","msg":"192.168.1.183 - - [16/Sep/2026 03:58:16] "GET /?max_cost=2 HTTP/1.1" 200 -"}
+{"ts":"2026-09-16 03:58:16,987","level":"INFO","logger":"werkzeug","msg":"192.168.1.183 - - [16/Sep/2026 03:58:16] "[36mGET /static/css/theme.css HTTP/1.1[0m" 304 -"}
+{"ts":"2026-09-16 03:58:17,007","level":"INFO","logger":"werkzeug","msg":"192.168.1.183 - - [16/Sep/2026 03:58:17] "[36mGET /static/css/theme.css HTTP/1.1[0m" 304 -"}
+{"ts":"2026-09-16 03:58:17,090","level":"INFO","logger":"werkzeug","msg":"192.168.1.183 - - [16/Sep/2026 03:58:17] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -"}
+{"ts":"2026-09-16 04:03:17,429","level":"INFO","logger":"werkzeug","msg":"192.168.1.183 - - [16/Sep/2026 04:03:17] "GET /?max_cost=2 HTTP/1.1" 200 -"}
+{"ts":"2026-09-16 04:03:17,470","level":"INFO","logger":"werkzeug","msg":"192.168.1.183 - - [16/Sep/2026 04:03:17] "[36mGET /static/css/theme.css HTTP/1.1[0m" 304 -"}
+{"ts":"2026-09-16 04:03:17,488","level":"INFO","logger":"werkzeug","msg":"192.168.1.183 - - [16/Sep/2026 04:03:17] "[36mGET /static/css/theme.css HTTP/1.1[0m" 304 -"}
+{"ts":"2026-09-16 04:03:17,569","level":"INFO","logger":"werkzeug","msg":"192.168.1.183 - - [16/Sep/2026 04:03:17] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -"}
+{"ts":"2026-09-16 04:06:39,466","level":"WARNING","logger":"collectors.base","msg":"source=steam status=429 (sem retry)"}
+{"ts":"2026-09-16 04:06:42,576","level":"WARNING","logger":"collectors.base","msg":"source=steam status=429 (sem retry)"}
+{"ts":"2026-09-16 04:06:44,713","level":"INFO","logger":"engine.opportunities","msg":"oportunidades recalculadas {'tradeups': 3000, 'tradeups_profitable': 243, 'tradeups_robust': 0, 'resale': 7854, 'resale_profitable': 4218, 'resale_robust': 0}"}
+{"ts":"2026-09-16 04:06:46,018","level":"WARNING","logger":"collectors.base","msg":"source=steam status=429 (sem retry)"}
+{"ts":"2026-09-16 04:06:49,525","level":"WARNING","logger":"collectors.base","msg":"source=steam status=429 (sem retry)"}
+{"ts":"2026-09-16 04:06:53,097","level":"WARNING","logger":"collectors.base","msg":"source=steam status=429 (sem retry)"}
+{"ts":"2026-09-16 04:06:53,097","level":"ERROR","logger":"collectors.steam","msg":"source=steam 5 falhas consecutivas — IP provavelmente limitado (429) ou cookies em falta; run abortado"}
+{"ts":"2026-09-16 04:08:17,916","level":"INFO","logger":"werkzeug","msg":"192.168.1.183 - - [16/Sep/2026 04:08:17] "GET /?max_cost=2 HTTP/1.1" 200 -"}
+{"ts":"2026-09-16 04:08:17,956","level":"INFO","logger":"werkzeug","msg":"192.168.1.183 - - [16/Sep/2026 04:08:17] "[36mGET /static/css/theme.css HTTP/1.1[0m" 304 -"}
+{"ts":"2026-09-16 04:08:17,975","level":"INFO","logger":"werkzeug","msg":"192.168.1.183 - - [16/Sep/2026 04:08:17] "[36mGET /static/css/theme.css HTTP/1.1[0m" 304 -"}
+{"ts":"2026-09-16 04:08:18,074","level":"INFO","logger":"werkzeug","msg":"192.168.1.183 - - [16/Sep/2026 04:08:18] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -"}
+{"ts":"2026-09-16 04:13:18,399","level":"INFO","logger":"werkzeug","msg":"192.168.1.183 - - [16/Sep/2026 04:13:18] "GET /?max_cost=2 HTTP/1.1" 200 -"}
+{"ts":"2026-09-16 04:13:18,438","level":"INFO","logger":"werkzeug","msg":"192.168.1.183 - - [16/Sep/2026 04:13:18] "[36mGET /static/css/theme.css HTTP/1.1[0m" 304 -"}
+{"ts":"2026-09-16 04:13:18,460","level":"INFO","logger":"werkzeug","msg":"192.168.1.183 - - [16/Sep/2026 04:13:18] "[36mGET /static/css/theme.css HTTP/1.1[0m" 304 -"}
+{"ts":"2026-09-16 04:13:18,542","level":"INFO","logger":"werkzeug","msg":"192.168.1.183 - - [16/Sep/2026 04:13:18] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -"}
+{"ts":"2026-09-16 04:16:41,419","level":"INFO","logger":"collectors.base","msg":"source=skinport gravados=16058"}
+{"ts":"2026-09-16 04:16:44,997","level":"INFO","logger":"engine.opportunities","msg":"oportunidades recalculadas {'tradeups': 3000, 'tradeups_profitable': 243, 'tradeups_robust': 0, 'resale': 7854, 'resale_profitable': 4218, 'resale_robust': 0}"}
+{"ts":"2026-09-16 04:18:18,878","level":"INFO","logger":"werkzeug","msg":"192.168.1.183 - - [16/Sep/2026 04:18:18] "GET /?max_cost=2 HTTP/1.1" 200 -"}
+{"ts":"2026-09-16 04:18:18,917","level":"INFO","logger":"werkzeug","msg":"192.168.1.183 - - [16/Sep/2026 04:18:18] "[36mGET /static/css/theme.css HTTP/1.1[0m" 304 -"}
+{"ts":"2026-09-16 04:18:18,935","level":"INFO","logger":"werkzeug","msg":"192.168.1.183 - - [16/Sep/2026 04:18:18] "[36mGET /static/css/theme.css HTTP/1.1[0m" 304 -"}
+{"ts":"2026-09-16 04:18:19,022","level":"INFO","logger":"werkzeug","msg":"192.168.1.183 - - [16/Sep/2026 04:18:19] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -"}
+{"ts":"2026-09-16 04:23:19,361","level":"INFO","logger":"werkzeug","msg":"192.168.1.183 - - [16/Sep/2026 04:23:19] "GET /?max_cost=2 HTTP/1.1" 200 -"}
+{"ts":"2026-09-16 04:23:19,402","level":"INFO","logger":"werkzeug","msg":"192.168.1.183 - - [16/Sep/2026 04:23:19] "[36mGET /static/css/theme.css HTTP/1.1[0m" 304 -"}
+{"ts":"2026-09-16 04:23:19,421","level":"INFO","logger":"werkzeug","msg":"192.168.1.183 - - [16/Sep/2026 04:23:19] "[36mGET /static/css/theme.css HTTP/1.1[0m" 304 -"}
+{"ts":"2026-09-16 04:23:19,533","level":"INFO","logger":"werkzeug","msg":"192.168.1.183 - - [16/Sep/2026 04:23:19] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -"}
+{"ts":"2026-09-16 04:26:45,088","level":"INFO","logger":"engine.opportunities","msg":"oportunidades recalculadas {'tradeups': 3000, 'tradeups_profitable': 243, 'tradeups_robust': 0, 'resale': 7854, 'resale_profitable': 4218, 'resale_robust': 0}"}
+{"ts":"2026-09-16 04:28:19,876","level":"INFO","logger":"werkzeug","msg":"192.168.1.183 - - [16/Sep/2026 04:28:19] "GET /?max_cost=2 HTTP/1.1" 200 -"}
+{"ts":"2026-09-16 04:28:19,914","level":"INFO","logger":"werkzeug","msg":"192.168.1.183 - - [16/Sep/2026 04:28:19] "[36mGET /static/css/theme.css HTTP/1.1[0m" 304 -"}
+{"ts":"2026-09-16 04:28:19,933","level":"INFO","logger":"werkzeug","msg":"192.168.1.183 - - [16/Sep/2026 04:28:19] "[36mGET /static/css/theme.css HTTP/1.1[0m" 304 -"}
+{"ts":"2026-09-16 04:28:20,009","level":"INFO","logger":"werkzeug","msg":"192.168.1.183 - - [16/Sep/2026 04:28:20] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -"}
+{"ts":"2026-09-16 04:33:20,338","level":"INFO","logger":"werkzeug","msg":"192.168.1.183 - - [16/Sep/2026 04:33:20] "GET /?max_cost=2 HTTP/1.1" 200 -"}
+{"ts":"2026-09-16 04:33:20,381","level":"INFO","logger":"werkzeug","msg":"192.168.1.183 - - [16/Sep/2026 04:33:20] "[36mGET /static/css/theme.css HTTP/1.1[0m" 304 -"}
+{"ts":"2026-09-16 04:33:20,399","level":"INFO","logger":"werkzeug","msg":"192.168.1.183 - - [16/Sep/2026 04:33:20] "[36mGET /static/css/theme.css HTTP/1.1[0m" 304 -"}
+{"ts":"2026-09-16 04:33:20,473","level":"INFO","logger":"werkzeug","msg":"192.168.1.183 - - [16/Sep/2026 04:33:20] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -"}
+{"ts":"2026-09-16 04:36:39,465","level":"WARNING","logger":"collectors.base","msg":"source=steam status=429 (sem retry)"}
+{"ts":"2026-09-16 04:36:41,049","level":"INFO","logger":"collectors.base","msg":"source=skinport gravados=16058"}
+{"ts":"2026-09-16 04:36:42,515","level":"WARNING","logger":"collectors.base","msg":"source=steam status=429 (sem retry)"}
+{"ts":"2026-09-16 04:36:45,489","level":"INFO","logger":"engine.opportunities","msg":"oportunidades recalculadas {'tradeups': 3000, 'tradeups_profitable': 243, 'tradeups_robust': 0, 'resale': 7854, 'resale_profitable': 4218, 'resale_robust': 0}"}
+{"ts":"2026-09-16 04:36:46,056","level":"WARNING","logger":"collectors.base","msg":"source=steam status=429 (sem retry)"}
+{"ts":"2026-09-16 04:36:49,549","level":"WARNING","logger":"collectors.base","msg":"source=steam status=429 (sem retry)"}
+{"ts":"2026-09-16 04:36:53,043","level":"WARNING","logger":"collectors.base","msg":"source=steam status=429 (sem retry)"}
+{"ts":"2026-09-16 04:36:53,043","level":"ERROR","logger":"collectors.steam","msg":"source=steam 5 falhas consecutivas — IP provavelmente limitado (429) ou cookies em falta; run abortado"}
+{"ts":"2026-09-16 04:38:20,796","level":"INFO","logger":"werkzeug","msg":"192.168.1.183 - - [16/Sep/2026 04:38:20] "GET /?max_cost=2 HTTP/1.1" 200 -"}
+{"ts":"2026-09-16 04:38:20,838","level":"INFO","logger":"werkzeug","msg":"192.168.1.183 - - [16/Sep/2026 04:38:20] "[36mGET /static/css/theme.css HTTP/1.1[0m" 304 -"}
+{"ts":"2026-09-16 04:38:20,856","level":"INFO","logger":"werkzeug","msg":"192.168.1.183 - - [16/Sep/2026 04:38:20] "[36mGET /static/css/theme.css HTTP/1.1[0m" 304 -"}
+{"ts":"2026-09-16 04:38:20,938","level":"INFO","logger":"werkzeug","msg":"192.168.1.183 - - [16/Sep/2026 04:38:20] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -"}
+{"ts":"2026-09-16 04:43:21,276","level":"INFO","logger":"werkzeug","msg":"192.168.1.183 - - [16/Sep/2026 04:43:21] "GET /?max_cost=2 HTTP/1.1" 200 -"}
+{"ts":"2026-09-16 04:43:21,316","level":"INFO","logger":"werkzeug","msg":"192.168.1.183 - - [16/Sep/2026 04:43:21] "[36mGET /static/css/theme.css HTTP/1.1[0m" 304 -"}
+{"ts":"2026-09-16 04:43:21,336","level":"INFO","logger":"werkzeug","msg":"192.168.1.183 - - [16/Sep/2026 04:43:21] "[36mGET /static/css/theme.css HTTP/1.1[0m" 304 -"}
+{"ts":"2026-09-16 04:43:21,408","level":"INFO","logger":"werkzeug","msg":"192.168.1.183 - - [16/Sep/2026 04:43:21] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -"}
+{"ts":"2026-09-16 04:46:45,434","level":"INFO","logger":"engine.opportunities","msg":"oportunidades recalculadas {'tradeups': 3000, 'tradeups_profitable': 243, 'tradeups_robust': 0, 'resale': 7854, 'resale_profitable': 4218, 'resale_robust': 0}"}
+{"ts":"2026-09-16 04:48:21,741","level":"INFO","logger":"werkzeug","msg":"192.168.1.183 - - [16/Sep/2026 04:48:21] "GET /?max_cost=2 HTTP/1.1" 200 -"}
+{"ts":"2026-09-16 04:48:21,783","level":"INFO","logger":"werkzeug","msg":"192.168.1.183 - - [16/Sep/2026 04:48:21] "[36mGET /static/css/theme.css HTTP/1.1[0m" 304 -"}
+{"ts":"2026-09-16 04:48:21,803","level":"INFO","logger":"werkzeug","msg":"192.168.1.183 - - [16/Sep/2026 04:48:21] "[36mGET /static/css/theme.css HTTP/1.1[0m" 304 -"}
+{"ts":"2026-09-16 04:48:21,891","level":"INFO","logger":"werkzeug","msg":"192.168.1.183 - - [16/Sep/2026 04:48:21] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -"}
+{"ts":"2026-09-16 04:53:22,226","level":"INFO","logger":"werkzeug","msg":"192.168.1.183 - - [16/Sep/2026 04:53:22] "GET /?max_cost=2 HTTP/1.1" 200 -"}
+{"ts":"2026-09-16 04:53:22,266","level":"INFO","logger":"werkzeug","msg":"192.168.1.183 - - [16/Sep/2026 04:53:22] "[36mGET /static/css/theme.css HTTP/1.1[0m" 304 -"}
+{"ts":"2026-09-16 04:53:22,286","level":"INFO","logger":"werkzeug","msg":"192.168.1.183 - - [16/Sep/2026 04:53:22] "[36mGET /static/css/theme.css HTTP/1.1[0m" 304 -"}
+{"ts":"2026-09-16 04:53:22,368","level":"INFO","logger":"werkzeug","msg":"192.168.1.183 - - [16/Sep/2026 04:53:22] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -"}
+{"ts":"2026-09-16 04:56:41,129","level":"INFO","logger":"collectors.base","msg":"source=skinport gravados=16056"}
+{"ts":"2026-09-16 04:56:45,939","level":"INFO","logger":"engine.opportunities","msg":"oportunidades recalculadas {'tradeups': 3000, 'tradeups_profitable': 243, 'tradeups_robust': 0, 'resale': 7854, 'resale_profitable': 4218, 'resale_robust': 0}"}
+{"ts":"2026-09-16 04:58:22,723","level":"INFO","logger":"werkzeug","msg":"192.168.1.183 - - [16/Sep/2026 04:58:22] "GET /?max_cost=2 HTTP/1.1" 200 -"}
+{"ts":"2026-09-16 04:58:22,761","level":"INFO","logger":"werkzeug","msg":"192.168.1.183 - - [16/Sep/2026 04:58:22] "[36mGET /static/css/theme.css HTTP/1.1[0m" 304 -"}
+{"ts":"2026-09-16 04:58:22,780","level":"INFO","logger":"werkzeug","msg":"192.168.1.183 - - [16/Sep/2026 04:58:22] "[36mGET /static/css/theme.css HTTP/1.1[0m" 304 -"}
+{"ts":"2026-09-16 04:58:22,874","level":"INFO","logger":"werkzeug","msg":"192.168.1.183 - - [16/Sep/2026 04:58:22] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -"}
+{"ts":"2026-09-16 05:03:23,209","level":"INFO","logger":"werkzeug","msg":"192.168.1.183 - - [16/Sep/2026 05:03:23] "GET /?max_cost=2 HTTP/1.1" 200 -"}
+{"ts":"2026-09-16 05:03:23,249","level":"INFO","logger":"werkzeug","msg":"192.168.1.183 - - [16/Sep/2026 05:03:23] "[36mGET /static/css/theme.css HTTP/1.1[0m" 304 -"}
+{"ts":"2026-09-16 05:03:23,268","level":"INFO","logger":"werkzeug","msg":"192.168.1.183 - - [16/Sep/2026 05:03:23] "[36mGET /static/css/theme.css HTTP/1.1[0m" 304 -"}
+{"ts":"2026-09-16 05:03:23,369","level":"INFO","logger":"werkzeug","msg":"192.168.1.183 - - [16/Sep/2026 05:03:23] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -"}
+{"ts":"2026-09-16 05:06:39,450","level":"WARNING","logger":"collectors.base","msg":"source=steam status=429 (sem retry)"}
+{"ts":"2026-09-16 05:06:42,537","level":"WARNING","logger":"collectors.base","msg":"source=steam status=429 (sem retry)"}
+{"ts":"2026-09-16 05:06:45,954","level":"INFO","logger":"engine.opportunities","msg":"oportunidades recalculadas {'tradeups': 3000, 'tradeups_profitable': 243, 'tradeups_robust': 0, 'resale': 7854, 'resale_profitable': 4218, 'resale_robust': 0}"}
+{"ts":"2026-09-16 05:06:46,034","level":"WARNING","logger":"collectors.base","msg":"source=steam status=429 (sem retry)"}
+{"ts":"2026-09-16 05:06:49,564","level":"WARNING","logger":"collectors.base","msg":"source=steam status=429 (sem retry)"}
+{"ts":"2026-09-16 05:06:53,032","level":"WARNING","logger":"collectors.base","msg":"source=steam status=429 (sem retry)"}
+{"ts":"2026-09-16 05:06:53,032","level":"ERROR","logger":"collectors.steam","msg":"source=steam 5 falhas consecutivas — IP provavelmente limitado (429) ou cookies em falta; run abortado"}
+{"ts":"2026-09-16 05:08:23,718","level":"INFO","logger":"werkzeug","msg":"192.168.1.183 - - [16/Sep/2026 05:08:23] "GET /?max_cost=2 HTTP/1.1" 200 -"}
+{"ts":"2026-09-16 05:08:23,758","level":"INFO","logger":"werkzeug","msg":"192.168.1.183 - - [16/Sep/2026 05:08:23] "[36mGET /static/css/theme.css HTTP/1.1[0m" 304 -"}
+{"ts":"2026-09-16 05:08:23,780","level":"INFO","logger":"werkzeug","msg":"192.168.1.183 - - [16/Sep/2026 05:08:23] "[36mGET /static/css/theme.css HTTP/1.1[0m" 304 -"}
+{"ts":"2026-09-16 05:08:23,880","level":"INFO","logger":"werkzeug","msg":"192.168.1.183 - - [16/Sep/2026 05:08:23] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -"}
+{"ts":"2026-09-16 05:13:24,218","level":"INFO","logger":"werkzeug","msg":"192.168.1.183 - - [16/Sep/2026 05:13:24] "GET /?max_cost=2 HTTP/1.1" 200 -"}
+{"ts":"2026-09-16 05:13:24,257","level":"INFO","logger":"werkzeug","msg":"192.168.1.183 - - [16/Sep/2026 05:13:24] "[36mGET /static/css/theme.css HTTP/1.1[0m" 304 -"}
+{"ts":"2026-09-16 05:13:24,278","level":"INFO","logger":"werkzeug","msg":"192.168.1.183 - - [16/Sep/2026 05:13:24] "[36mGET /static/css/theme.css HTTP/1.1[0m" 304 -"}
+{"ts":"2026-09-16 05:13:24,367","level":"INFO","logger":"werkzeug","msg":"192.168.1.183 - - [16/Sep/2026 05:13:24] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -"}
+{"ts":"2026-09-16 05:16:41,144","level":"INFO","logger":"collectors.base","msg":"source=skinport gravados=16056"}
+{"ts":"2026-09-16 05:16:46,287","level":"INFO","logger":"engine.opportunities","msg":"oportunidades recalculadas {'tradeups': 3000, 'tradeups_profitable': 243, 'tradeups_robust': 0, 'resale': 7854, 'resale_profitable': 4218, 'resale_robust': 0}"}
+{"ts":"2026-09-16 05:18:24,699","level":"INFO","logger":"werkzeug","msg":"192.168.1.183 - - [16/Sep/2026 05:18:24] "GET /?max_cost=2 HTTP/1.1" 200 -"}
+{"ts":"2026-09-16 05:18:24,738","level":"INFO","logger":"werkzeug","msg":"192.168.1.183 - - [16/Sep/2026 05:18:24] "[36mGET /static/css/theme.css HTTP/1.1[0m" 304 -"}
+{"ts":"2026-09-16 05:18:24,756","level":"INFO","logger":"werkzeug","msg":"192.168.1.183 - - [16/Sep/2026 05:18:24] "[36mGET /static/css/theme.css HTTP/1.1[0m" 304 -"}
+{"ts":"2026-09-16 05:18:24,844","level":"INFO","logger":"werkzeug","msg":"192.168.1.183 - - [16/Sep/2026 05:18:24] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -"}
+{"ts":"2026-09-16 05:23:25,206","level":"INFO","logger":"werkzeug","msg":"192.168.1.183 - - [16/Sep/2026 05:23:25] "GET /?max_cost=2 HTTP/1.1" 200 -"}
+{"ts":"2026-09-16 05:23:25,247","level":"INFO","logger":"werkzeug","msg":"192.168.1.183 - - [16/Sep/2026 05:23:25] "[36mGET /static/css/theme.css HTTP/1.1[0m" 304 -"}
+{"ts":"2026-09-16 05:23:25,264","level":"INFO","logger":"werkzeug","msg":"192.168.1.183 - - [16/Sep/2026 05:23:25] "[36mGET /static/css/theme.css HTTP/1.1[0m" 304 -"}
+{"ts":"2026-09-16 05:23:25,372","level":"INFO","logger":"werkzeug","msg":"192.168.1.183 - - [16/Sep/2026 05:23:25] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -"}
+{"ts":"2026-09-16 05:26:46,301","level":"INFO","logger":"engine.opportunities","msg":"oportunidades recalculadas {'tradeups': 3000, 'tradeups_profitable': 243, 'tradeups_robust': 0, 'resale': 7854, 'resale_profitable': 4218, 'resale_robust': 0}"}
+{"ts":"2026-09-16 05:28:25,712","level":"INFO","logger":"werkzeug","msg":"192.168.1.183 - - [16/Sep/2026 05:28:25] "GET /?max_cost=2 HTTP/1.1" 200 -"}
+{"ts":"2026-09-16 05:28:25,751","level":"INFO","logger":"werkzeug","msg":"192.168.1.183 - - [16/Sep/2026 05:28:25] "[36mGET /static/css/theme.css HTTP/1.1[0m" 304 -"}
+{"ts":"2026-09-16 05:28:25,770","level":"INFO","logger":"werkzeug","msg":"192.168.1.183 - - [16/Sep/2026 05:28:25] "[36mGET /static/css/theme.css HTTP/1.1[0m" 304 -"}
+{"ts":"2026-09-16 05:28:25,862","level":"INFO","logger":"werkzeug","msg":"192.168.1.183 - - [16/Sep/2026 05:28:25] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -"}
+{"ts":"2026-09-16 05:33:26,207","level":"INFO","logger":"werkzeug","msg":"192.168.1.183 - - [16/Sep/2026 05:33:26] "GET /?max_cost=2 HTTP/1.1" 200 -"}
+{"ts":"2026-09-16 05:33:26,246","level":"INFO","logger":"werkzeug","msg":"192.168.1.183 - - [16/Sep/2026 05:33:26] "[36mGET /static/css/theme.css HTTP/1.1[0m" 304 -"}
+{"ts":"2026-09-16 05:33:26,266","level":"INFO","logger":"werkzeug","msg":"192.168.1.183 - - [16/Sep/2026 05:33:26] "[36mGET /static/css/theme.css HTTP/1.1[0m" 304 -"}
+{"ts":"2026-09-16 05:33:26,351","level":"INFO","logger":"werkzeug","msg":"192.168.1.183 - - [16/Sep/2026 05:33:26] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -"}
+{"ts":"2026-09-16 05:36:39,448","level":"WARNING","logger":"collectors.base","msg":"source=steam status=429 (sem retry)"}
+{"ts":"2026-09-16 05:36:41,266","level":"INFO","logger":"collectors.base","msg":"source=skinport gravados=16056"}
+{"ts":"2026-09-16 05:36:42,528","level":"WARNING","logger":"collectors.base","msg":"source=steam status=429 (sem retry)"}
+{"ts":"2026-09-16 05:36:46,021","level":"WARNING","logger":"collectors.base","msg":"source=steam status=429 (sem retry)"}
+{"ts":"2026-09-16 05:36:46,707","level":"INFO","logger":"engine.opportunities","msg":"oportunidades recalculadas {'tradeups': 3000, 'tradeups_profitable': 243, 'tradeups_robust': 0, 'resale': 7854, 'resale_profitable': 4218, 'resale_robust': 0}"}
+{"ts":"2026-09-16 05:36:49,523","level":"WARNING","logger":"collectors.base","msg":"source=steam status=429 (sem retry)"}
+{"ts":"2026-09-16 05:36:53,025","level":"WARNING","logger":"collectors.base","msg":"source=steam status=429 (sem retry)"}
+{"ts":"2026-09-16 05:36:53,025","level":"ERROR","logger":"collectors.steam","msg":"source=steam 5 falhas consecutivas — IP provavelmente limitado (429) ou cookies em falta; run abortado"}
+{"ts":"2026-09-16 05:38:26,708","level":"INFO","logger":"werkzeug","msg":"192.168.1.183 - - [16/Sep/2026 05:38:26] "GET /?max_cost=2 HTTP/1.1" 200 -"}
+{"ts":"2026-09-16 05:38:26,745","level":"INFO","logger":"werkzeug","msg":"192.168.1.183 - - [16/Sep/2026 05:38:26] "[36mGET /static/css/theme.css HTTP/1.1[0m" 304 -"}
+{"ts":"2026-09-16 05:38:26,765","level":"INFO","logger":"werkzeug","msg":"192.168.1.183 - - [16/Sep/2026 05:38:26] "[36mGET /static/css/theme.css HTTP/1.1[0m" 304 -"}
+{"ts":"2026-09-16 05:38:26,861","level":"INFO","logger":"werkzeug","msg":"192.168.1.183 - - [16/Sep/2026 05:38:26] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -"}
+{"ts":"2026-09-16 05:43:27,193","level":"INFO","logger":"werkzeug","msg":"192.168.1.183 - - [16/Sep/2026 05:43:27] "GET /?max_cost=2 HTTP/1.1" 200 -"}
+{"ts":"2026-09-16 05:43:27,235","level":"INFO","logger":"werkzeug","msg":"192.168.1.183 - - [16/Sep/2026 05:43:27] "[36mGET /static/css/theme.css HTTP/1.1[0m" 304 -"}
+{"ts":"2026-09-16 05:43:27,252","level":"INFO","logger":"werkzeug","msg":"192.168.1.183 - - [16/Sep/2026 05:43:27] "[36mGET /static/css/theme.css HTTP/1.1[0m" 304 -"}
+{"ts":"2026-09-16 05:43:27,356","level":"INFO","logger":"werkzeug","msg":"192.168.1.183 - - [16/Sep/2026 05:43:27] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -"}
+{"ts":"2026-09-16 05:46:46,722","level":"INFO","logger":"engine.opportunities","msg":"oportunidades recalculadas {'tradeups': 3000, 'tradeups_profitable': 243, 'tradeups_robust': 0, 'resale': 7854, 'resale_profitable': 4215, 'resale_robust': 0}"}
+{"ts":"2026-09-16 05:48:27,704","level":"INFO","logger":"werkzeug","msg":"192.168.1.183 - - [16/Sep/2026 05:48:27] "GET /?max_cost=2 HTTP/1.1" 200 -"}
+{"ts":"2026-09-16 05:48:27,744","level":"INFO","logger":"werkzeug","msg":"192.168.1.183 - - [16/Sep/2026 05:48:27] "[36mGET /static/css/theme.css HTTP/1.1[0m" 304 -"}
+{"ts":"2026-09-16 05:48:27,762","level":"INFO","logger":"werkzeug","msg":"192.168.1.183 - - [16/Sep/2026 05:48:27] "[36mGET /static/css/theme.css HTTP/1.1[0m" 304 -"}
+{"ts":"2026-09-16 05:48:27,850","level":"INFO","logger":"werkzeug","msg":"192.168.1.183 - - [16/Sep/2026 05:48:27] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -"}
+{"ts":"2026-09-16 05:53:28,176","level":"INFO","logger":"werkzeug","msg":"192.168.1.183 - - [16/Sep/2026 05:53:28] "GET /?max_cost=2 HTTP/1.1" 200 -"}
+{"ts":"2026-09-16 05:53:28,217","level":"INFO","logger":"werkzeug","msg":"192.168.1.183 - - [16/Sep/2026 05:53:28] "[36mGET /static/css/theme.css HTTP/1.1[0m" 304 -"}
+{"ts":"2026-09-16 05:53:28,234","level":"INFO","logger":"werkzeug","msg":"192.168.1.183 - - [16/Sep/2026 05:53:28] "[36mGET /static/css/theme.css HTTP/1.1[0m" 304 -"}
+{"ts":"2026-09-16 05:53:28,329","level":"INFO","logger":"werkzeug","msg":"192.168.1.183 - - [16/Sep/2026 05:53:28] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -"}
+{"ts":"2026-09-16 05:56:40,832","level":"INFO","logger":"collectors.base","msg":"source=skinport gravados=16056"}
+{"ts":"2026-09-16 05:56:46,963","level":"INFO","logger":"engine.opportunities","msg":"oportunidades recalculadas {'tradeups': 3000, 'tradeups_profitable': 243, 'tradeups_robust': 0, 'resale': 7854, 'resale_profitable': 4215, 'resale_robust': 0}"}
+{"ts":"2026-09-16 05:58:28,684","level":"INFO","logger":"werkzeug","msg":"192.168.1.183 - - [16/Sep/2026 05:58:28] "GET /?max_cost=2 HTTP/1.1" 200 -"}
+{"ts":"2026-09-16 05:58:28,725","level":"INFO","logger":"werkzeug","msg":"192.168.1.183 - - [16/Sep/2026 05:58:28] "[36mGET /static/css/theme.css HTTP/1.1[0m" 304 -"}
+{"ts":"2026-09-16 05:58:28,745","level":"INFO","logger":"werkzeug","msg":"192.168.1.183 - - [16/Sep/2026 05:58:28] "[36mGET /static/css/theme.css HTTP/1.1[0m" 304 -"}
+{"ts":"2026-09-16 05:58:28,821","level":"INFO","logger":"werkzeug","msg":"192.168.1.183 - - [16/Sep/2026 05:58:28] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -"}
+{"ts":"2026-09-16 06:03:29,175","level":"INFO","logger":"werkzeug","msg":"192.168.1.183 - - [16/Sep/2026 06:03:29] "GET /?max_cost=2 HTTP/1.1" 200 -"}
+{"ts":"2026-09-16 06:03:29,215","level":"INFO","logger":"werkzeug","msg":"192.168.1.183 - - [16/Sep/2026 06:03:29] "[36mGET /static/css/theme.css HTTP/1.1[0m" 304 -"}
+{"ts":"2026-09-16 06:03:29,237","level":"INFO","logger":"werkzeug","msg":"192.168.1.183 - - [16/Sep/2026 06:03:29] "[36mGET /static/css/theme.css HTTP/1.1[0m" 304 -"}
+{"ts":"2026-09-16 06:03:29,319","level":"INFO","logger":"werkzeug","msg":"192.168.1.183 - - [16/Sep/2026 06:03:29] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -"}
+{"ts":"2026-09-16 06:06:39,624","level":"WARNING","logger":"collectors.base","msg":"source=steam status=429 (sem retry)"}
+{"ts":"2026-09-16 06:06:42,734","level":"WARNING","logger":"collectors.base","msg":"source=steam status=429 (sem retry)"}
+{"ts":"2026-09-16 06:06:46,071","level":"WARNING","logger":"collectors.base","msg":"source=steam status=429 (sem retry)"}
+{"ts":"2026-09-16 06:06:48,054","level":"INFO","logger":"engine.opportunities","msg":"oportunidades recalculadas {'tradeups': 3000, 'tradeups_profitable': 243, 'tradeups_robust': 0, 'resale': 7854, 'resale_profitable': 4213, 'resale_robust': 0}"}
+{"ts":"2026-09-16 06:06:49,564","level":"WARNING","logger":"collectors.base","msg":"source=steam status=429 (sem retry)"}
+{"ts":"2026-09-16 06:06:53,141","level":"WARNING","logger":"collectors.base","msg":"source=steam status=429 (sem retry)"}
+{"ts":"2026-09-16 06:06:53,141","level":"ERROR","logger":"collectors.steam","msg":"source=steam 5 falhas consecutivas — IP provavelmente limitado (429) ou cookies em falta; run abortado"}
+{"ts":"2026-09-16 06:16:42,148","level":"INFO","logger":"collectors.base","msg":"source=skinport gravados=16054"}
+{"ts":"2026-09-16 06:16:49,210","level":"INFO","logger":"engine.opportunities","msg":"oportunidades recalculadas {'tradeups': 3000, 'tradeups_profitable': 243, 'tradeups_robust': 0, 'resale': 7854, 'resale_profitable': 4213, 'resale_robust': 0}"}
+{"ts":"2026-09-16 06:26:48,045","level":"INFO","logger":"engine.opportunities","msg":"oportunidades recalculadas {'tradeups': 3000, 'tradeups_profitable': 243, 'tradeups_robust': 0, 'resale': 7854, 'resale_profitable': 4211, 'resale_robust': 0}"}
+{"ts":"2026-09-16 06:36:39,586","level":"WARNING","logger":"collectors.base","msg":"source=steam status=429 (sem retry)"}
+{"ts":"2026-09-16 06:36:41,883","level":"INFO","logger":"collectors.base","msg":"source=skinport gravados=16054"}
+{"ts":"2026-09-16 06:36:42,551","level":"WARNING","logger":"collectors.base","msg":"source=steam status=429 (sem retry)"}
+{"ts":"2026-09-16 06:36:46,048","level":"WARNING","logger":"collectors.base","msg":"source=steam status=429 (sem retry)"}
+{"ts":"2026-09-16 06:36:48,860","level":"INFO","logger":"engine.opportunities","msg":"oportunidades recalculadas {'tradeups': 3000, 'tradeups_profitable': 243, 'tradeups_robust': 0, 'resale': 7854, 'resale_profitable': 4211, 'resale_robust': 0}"}
+{"ts":"2026-09-16 06:36:49,568","level":"WARNING","logger":"collectors.base","msg":"source=steam status=429 (sem retry)"}
+{"ts":"2026-09-16 06:36:53,067","level":"WARNING","logger":"collectors.base","msg":"source=steam status=429 (sem retry)"}
+{"ts":"2026-09-16 06:36:53,067","level":"ERROR","logger":"collectors.steam","msg":"source=steam 5 falhas consecutivas — IP provavelmente limitado (429) ou cookies em falta; run abortado"}
+{"ts":"2026-09-16 06:46:48,075","level":"INFO","logger":"engine.opportunities","msg":"oportunidades recalculadas {'tradeups': 3000, 'tradeups_profitable': 243, 'tradeups_robust': 0, 'resale': 7854, 'resale_profitable': 4213, 'resale_robust': 0}"}
+{"ts":"2026-09-16 06:56:41,854","level":"INFO","logger":"collectors.base","msg":"source=skinport gravados=16050"}
+{"ts":"2026-09-16 06:56:49,287","level":"INFO","logger":"engine.opportunities","msg":"oportunidades recalculadas {'tradeups': 3000, 'tradeups_profitable': 243, 'tradeups_robust': 0, 'resale': 7854, 'resale_profitable': 4213, 'resale_robust': 0}"}
+{"ts":"2026-09-16 07:06:39,525","level":"WARNING","logger":"collectors.base","msg":"source=steam status=429 (sem retry)"}
+{"ts":"2026-09-16 07:06:42,516","level":"WARNING","logger":"collectors.base","msg":"source=steam status=429 (sem retry)"}
+{"ts":"2026-09-16 07:06:46,025","level":"WARNING","logger":"collectors.base","msg":"source=steam status=429 (sem retry)"}
+{"ts":"2026-09-16 07:06:48,158","level":"INFO","logger":"engine.opportunities","msg":"oportunidades recalculadas {'tradeups': 3000, 'tradeups_profitable': 243, 'tradeups_robust': 0, 'resale': 7854, 'resale_profitable': 4209, 'resale_robust': 0}"}
+{"ts":"2026-09-16 07:06:49,535","level":"WARNING","logger":"collectors.base","msg":"source=steam status=429 (sem retry)"}
+{"ts":"2026-09-16 07:06:53,016","level":"WARNING","logger":"collectors.base","msg":"source=steam status=429 (sem retry)"}
+{"ts":"2026-09-16 07:06:53,016","level":"ERROR","logger":"collectors.steam","msg":"source=steam 5 falhas consecutivas — IP provavelmente limitado (429) ou cookies em falta; run abortado"}
+{"ts":"2026-09-16 07:16:41,856","level":"INFO","logger":"collectors.base","msg":"source=skinport gravados=16052"}
+{"ts":"2026-09-16 07:16:49,557","level":"INFO","logger":"engine.opportunities","msg":"oportunidades recalculadas {'tradeups': 3000, 'tradeups_profitable': 243, 'tradeups_robust': 0, 'resale': 7854, 'resale_profitable': 4209, 'resale_robust': 0}"}
+{"ts":"2026-09-16 07:26:48,727","level":"INFO","logger":"engine.opportunities","msg":"oportunidades recalculadas {'tradeups': 3000, 'tradeups_profitable': 243, 'tradeups_robust': 0, 'resale': 7854, 'resale_profitable': 4214, 'resale_robust': 0}"}
+{"ts":"2026-09-16 07:36:39,571","level":"WARNING","logger":"collectors.base","msg":"source=steam status=429 (sem retry)"}
+{"ts":"2026-09-16 07:36:42,510","level":"WARNING","logger":"collectors.base","msg":"source=steam status=429 (sem retry)"}
+{"ts":"2026-09-16 07:36:44,086","level":"INFO","logger":"collectors.base","msg":"source=skinport gravados=16054"}
+{"ts":"2026-09-16 07:36:45,988","level":"WARNING","logger":"collectors.base","msg":"source=steam status=429 (sem retry)"}
+{"ts":"2026-09-16 07:36:49,530","level":"WARNING","logger":"collectors.base","msg":"source=steam status=429 (sem retry)"}
+{"ts":"2026-09-16 07:36:49,692","level":"INFO","logger":"engine.opportunities","msg":"oportunidades recalculadas {'tradeups': 3000, 'tradeups_profitable': 243, 'tradeups_robust': 0, 'resale': 7854, 'resale_profitable': 4214, 'resale_robust': 0}"}
+{"ts":"2026-09-16 07:36:53,021","level":"WARNING","logger":"collectors.base","msg":"source=steam status=429 (sem retry)"}
+{"ts":"2026-09-16 07:36:53,021","level":"ERROR","logger":"collectors.steam","msg":"source=steam 5 falhas consecutivas — IP provavelmente limitado (429) ou cookies em falta; run abortado"}
+{"ts":"2026-09-16 07:46:48,824","level":"INFO","logger":"engine.opportunities","msg":"oportunidades recalculadas {'tradeups': 3000, 'tradeups_profitable': 243, 'tradeups_robust': 0, 'resale': 7854, 'resale_profitable': 4215, 'resale_robust': 0}"}
+{"ts":"2026-09-16 07:56:41,997","level":"INFO","logger":"collectors.base","msg":"source=skinport gravados=16054"}
+{"ts":"2026-09-16 07:56:50,049","level":"INFO","logger":"engine.opportunities","msg":"oportunidades recalculadas {'tradeups': 3000, 'tradeups_profitable': 243, 'tradeups_robust': 0, 'resale': 7854, 'resale_profitable': 4215, 'resale_robust': 0}"}
+{"ts":"2026-09-16 08:06:39,582","level":"WARNING","logger":"collectors.base","msg":"source=steam status=429 (sem retry)"}
+{"ts":"2026-09-16 08:06:42,568","level":"WARNING","logger":"collectors.base","msg":"source=steam status=429 (sem retry)"}
+{"ts":"2026-09-16 08:06:46,053","level":"WARNING","logger":"collectors.base","msg":"source=steam status=429 (sem retry)"}
+{"ts":"2026-09-16 08:06:49,280","level":"INFO","logger":"engine.opportunities","msg":"oportunidades recalculadas {'tradeups': 3000, 'tradeups_profitable': 243, 'tradeups_robust': 0, 'resale': 7854, 'resale_profitable': 4213, 'resale_robust': 0}"}
+{"ts":"2026-09-16 08:06:49,563","level":"WARNING","logger":"collectors.base","msg":"source=steam status=429 (sem retry)"}
+{"ts":"2026-09-16 08:06:53,072","level":"WARNING","logger":"collectors.base","msg":"source=steam status=429 (sem retry)"}
+{"ts":"2026-09-16 08:06:53,072","level":"ERROR","logger":"collectors.steam","msg":"source=steam 5 falhas consecutivas — IP provavelmente limitado (429) ou cookies em falta; run abortado"}
+{"ts":"2026-09-16 08:16:41,966","level":"INFO","logger":"collectors.base","msg":"source=skinport gravados=16052"}
+{"ts":"2026-09-16 08:16:50,290","level":"INFO","logger":"engine.opportunities","msg":"oportunidades recalculadas {'tradeups': 3000, 'tradeups_profitable': 243, 'tradeups_robust': 0, 'resale': 7854, 'resale_profitable': 4213, 'resale_robust': 0}"}
+{"ts":"2026-09-16 08:26:49,360","level":"INFO","logger":"engine.opportunities","msg":"oportunidades recalculadas {'tradeups': 3000, 'tradeups_profitable': 243, 'tradeups_robust': 0, 'resale': 7854, 'resale_profitable': 4216, 'resale_robust': 0}"}
+{"ts":"2026-09-16 08:36:39,617","level":"WARNING","logger":"collectors.base","msg":"source=steam status=429 (sem retry)"}
+{"ts":"2026-09-16 08:36:42,085","level":"INFO","logger":"collectors.base","msg":"source=skinport gravados=16054"}
+{"ts":"2026-09-16 08:36:42,554","level":"WARNING","logger":"collectors.base","msg":"source=steam status=429 (sem retry)"}
+{"ts":"2026-09-16 08:36:50,486","level":"INFO","logger":"engine.opportunities","msg":"oportunidades recalculadas {'tradeups': 3000, 'tradeups_profitable': 243, 'tradeups_robust': 0, 'resale': 7854, 'resale_profitable': 4216, 'resale_robust': 0}"}
+{"ts":"2026-09-16 08:36:53,042","level":"ERROR","logger":"collectors.steam","msg":"source=steam 5 falhas consecutivas — IP provavelmente limitado (429) ou cookies em falta; run abortado"}
+{"ts":"2026-09-16 08:46:49,576","level":"INFO","logger":"engine.opportunities","msg":"oportunidades recalculadas {'tradeups': 3000, 'tradeups_profitable': 243, 'tradeups_robust': 0, 'resale': 7854, 'resale_profitable': 4218, 'resale_robust': 0}"}
+{"ts":"2026-09-16 08:56:41,988","level":"INFO","logger":"collectors.base","msg":"source=skinport gravados=16054"}
+{"ts":"2026-09-16 08:56:50,890","level":"INFO","logger":"engine.opportunities","msg":"oportunidades recalculadas {'tradeups': 3000, 'tradeups_profitable': 243, 'tradeups_robust': 0, 'resale': 7854, 'resale_profitable': 4218, 'resale_robust': 0}"}
+{"ts":"2026-09-16 09:06:42,532","level":"WARNING","logger":"collectors.base","msg":"source=steam status=429 (sem retry)"}
+{"ts":"2026-09-16 09:06:46,045","level":"WARNING","logger":"collectors.base","msg":"source=steam status=429 (sem retry)"}
+{"ts":"2026-09-16 09:06:49,604","level":"WARNING","logger":"collectors.base","msg":"source=steam status=429 (sem retry)"}
+{"ts":"2026-09-16 09:06:52,529","level":"INFO","logger":"engine.opportunities","msg":"oportunidades recalculadas {'tradeups': 3000, 'tradeups_profitable': 243, 'tradeups_robust': 0, 'resale': 7854, 'resale_profitable': 4210, 'resale_robust': 0}"}
+{"ts":"2026-09-16 09:06:53,030","level":"WARNING","logger":"collectors.base","msg":"source=steam status=429 (sem retry)"}
+{"ts":"2026-09-16 09:06:56,606","level":"WARNING","logger":"collectors.base","msg":"source=steam status=429 (sem retry)"}
+{"ts":"2026-09-16 09:06:56,607","level":"ERROR","logger":"collectors.steam","msg":"source=steam 5 falhas consecutivas — IP provavelmente limitado (429) ou cookies em falta; run abortado"}
+{"ts":"2026-09-16 09:06:56,610","level":"INFO","logger":"collectors.base","msg":"source=steam gravados=1"}
+{"ts":"2026-09-16 09:08:40,316","level":"INFO","logger":"werkzeug","msg":"192.168.1.183 - - [16/Sep/2026 09:08:40] "GET /?max_cost=2 HTTP/1.1" 200 -"}
+{"ts":"2026-09-16 09:08:40,353","level":"INFO","logger":"werkzeug","msg":"192.168.1.183 - - [16/Sep/2026 09:08:40] "[36mGET /static/css/theme.css HTTP/1.1[0m" 304 -"}
+{"ts":"2026-09-16 09:08:40,423","level":"INFO","logger":"werkzeug","msg":"192.168.1.183 - - [16/Sep/2026 09:08:40] "[36mGET /static/css/theme.css HTTP/1.1[0m" 304 -"}
+{"ts":"2026-09-16 09:08:40,489","level":"INFO","logger":"werkzeug","msg":"192.168.1.183 - - [16/Sep/2026 09:08:40] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -"}
+{"ts":"2026-09-16 09:16:42,136","level":"INFO","logger":"collectors.base","msg":"source=skinport gravados=16056"}
+{"ts":"2026-09-16 09:16:50,746","level":"INFO","logger":"engine.opportunities","msg":"oportunidades recalculadas {'tradeups': 3000, 'tradeups_profitable': 243, 'tradeups_robust': 0, 'resale': 7854, 'resale_profitable': 4210, 'resale_robust': 0}"}
+{"ts":"2026-09-16 09:26:50,251","level":"INFO","logger":"engine.opportunities","msg":"oportunidades recalculadas {'tradeups': 3000, 'tradeups_profitable': 243, 'tradeups_robust': 0, 'resale': 7854, 'resale_profitable': 4217, 'resale_robust': 0}"}
+{"ts":"2026-09-16 09:36:39,631","level":"WARNING","logger":"collectors.base","msg":"source=steam status=429 (sem retry)"}
+{"ts":"2026-09-16 09:36:42,200","level":"INFO","logger":"collectors.base","msg":"source=skinport gravados=16054"}
+{"ts":"2026-09-16 09:36:42,597","level":"WARNING","logger":"collectors.base","msg":"source=steam status=429 (sem retry)"}
+{"ts":"2026-09-16 09:36:46,052","level":"WARNING","logger":"collectors.base","msg":"source=steam status=429 (sem retry)"}
+{"ts":"2026-09-16 09:36:49,577","level":"WARNING","logger":"collectors.base","msg":"source=steam status=429 (sem retry)"}
+{"ts":"2026-09-16 09:36:51,737","level":"INFO","logger":"engine.opportunities","msg":"oportunidades recalculadas {'tradeups': 3000, 'tradeups_profitable': 243, 'tradeups_robust': 0, 'resale': 7854, 'resale_profitable': 4217, 'resale_robust': 0}"}
+{"ts":"2026-09-16 09:36:53,039","level":"WARNING","logger":"collectors.base","msg":"source=steam status=429 (sem retry)"}
+{"ts":"2026-09-16 09:36:53,039","level":"ERROR","logger":"collectors.steam","msg":"source=steam 5 falhas consecutivas — IP provavelmente limitado (429) ou cookies em falta; run abortado"}
+{"ts":"2026-09-16 09:46:51,669","level":"INFO","logger":"engine.opportunities","msg":"oportunidades recalculadas {'tradeups': 3000, 'tradeups_profitable': 242, 'tradeups_robust': 0, 'resale': 7854, 'resale_profitable': 4213, 'resale_robust': 0}"}
+{"ts":"2026-09-16 09:56:42,215","level":"INFO","logger":"collectors.base","msg":"source=skinport gravados=16052"}
+{"ts":"2026-09-16 09:56:52,770","level":"INFO","logger":"engine.opportunities","msg":"oportunidades recalculadas {'tradeups': 3000, 'tradeups_profitable': 242, 'tradeups_robust': 0, 'resale': 7854, 'resale_profitable': 4213, 'resale_robust': 0}"}
+{"ts":"2026-09-16 10:06:39,607","level":"WARNING","logger":"collectors.base","msg":"source=steam status=429 (sem retry)"}
+{"ts":"2026-09-16 10:06:42,594","level":"WARNING","logger":"collectors.base","msg":"source=steam status=429 (sem retry)"}
+{"ts":"2026-09-16 10:06:46,068","level":"WARNING","logger":"collectors.base","msg":"source=steam status=429 (sem retry)"}
+{"ts":"2026-09-16 10:06:49,567","level":"WARNING","logger":"collectors.base","msg":"source=steam status=429 (sem retry)"}
+{"ts":"2026-09-16 10:06:51,962","level":"INFO","logger":"engine.opportunities","msg":"oportunidades recalculadas {'tradeups': 3000, 'tradeups_profitable': 242, 'tradeups_robust': 0, 'resale': 7854, 'resale_profitable': 4214, 'resale_robust': 0}"}
+{"ts":"2026-09-16 10:06:53,058","level":"WARNING","logger":"collectors.base","msg":"source=steam status=429 (sem retry)"}
+{"ts":"2026-09-16 10:06:53,058","level":"ERROR","logger":"collectors.steam","msg":"source=steam 5 falhas consecutivas — IP provavelmente limitado (429) ou cookies em falta; run abortado"}
+{"ts":"2026-09-16 10:16:42,224","level":"INFO","logger":"collectors.base","msg":"source=skinport gravados=16054"}
+{"ts":"2026-09-16 10:16:52,895","level":"INFO","logger":"engine.opportunities","msg":"oportunidades recalculadas {'tradeups': 3000, 'tradeups_profitable': 242, 'tradeups_robust': 0, 'resale': 7854, 'resale_profitable': 4214, 'resale_robust': 0}"}
+{"ts":"2026-09-16 10:26:50,976","level":"INFO","logger":"engine.opportunities","msg":"oportunidades recalculadas {'tradeups': 3000, 'tradeups_profitable': 240, 'tradeups_robust': 0, 'resale': 7854, 'resale_profitable': 4218, 'resale_robust': 0}"}
+{"ts":"2026-09-16 10:36:39,638","level":"WARNING","logger":"collectors.base","msg":"source=steam status=429 (sem retry)"}
+{"ts":"2026-09-16 10:36:42,209","level":"INFO","logger":"collectors.base","msg":"source=skinport gravados=16056"}
+{"ts":"2026-09-16 10:36:42,553","level":"WARNING","logger":"collectors.base","msg":"source=steam status=429 (sem retry)"}
+{"ts":"2026-09-16 10:36:46,041","level":"WARNING","logger":"collectors.base","msg":"source=steam status=429 (sem retry)"}
+{"ts":"2026-09-16 10:36:49,551","level":"WARNING","logger":"collectors.base","msg":"source=steam status=429 (sem retry)"}
+{"ts":"2026-09-16 10:36:52,109","level":"INFO","logger":"engine.opportunities","msg":"oportunidades recalculadas {'tradeups': 3000, 'tradeups_profitable': 240, 'tradeups_robust': 0, 'resale': 7854, 'resale_profitable': 4218, 'resale_robust': 0}"}
+{"ts":"2026-09-16 10:36:53,043","level":"WARNING","logger":"collectors.base","msg":"source=steam status=429 (sem retry)"}
+{"ts":"2026-09-16 10:36:53,043","level":"ERROR","logger":"collectors.steam","msg":"source=steam 5 falhas consecutivas — IP provavelmente limitado (429) ou cookies em falta; run abortado"}
+{"ts":"2026-09-16 10:46:51,289","level":"INFO","logger":"engine.opportunities","msg":"oportunidades recalculadas {'tradeups': 3000, 'tradeups_profitable': 241, 'tradeups_robust': 0, 'resale': 7855, 'resale_profitable': 4209, 'resale_robust': 0}"}
+{"ts":"2026-09-16 10:56:42,043","level":"INFO","logger":"collectors.base","msg":"source=skinport gravados=16056"}
+{"ts":"2026-09-16 10:56:52,458","level":"INFO","logger":"engine.opportunities","msg":"oportunidades recalculadas {'tradeups': 3000, 'tradeups_profitable': 241, 'tradeups_robust': 0, 'resale': 7855, 'resale_profitable': 4209, 'resale_robust': 0}"}
+{"ts":"2026-09-16 11:06:39,405","level":"WARNING","logger":"collectors.base","msg":"source=steam status=429 (sem retry)"}
+{"ts":"2026-09-16 11:06:42,509","level":"WARNING","logger":"collectors.base","msg":"source=steam status=429 (sem retry)"}
+{"ts":"2026-09-16 11:06:46,424","level":"WARNING","logger":"collectors.base","msg":"source=steam status=429 (sem retry)"}
+{"ts":"2026-09-16 11:06:49,493","level":"WARNING","logger":"collectors.base","msg":"source=steam status=429 (sem retry)"}
+{"ts":"2026-09-16 11:06:51,542","level":"INFO","logger":"engine.opportunities","msg":"oportunidades recalculadas {'tradeups': 3000, 'tradeups_profitable': 241, 'tradeups_robust': 0, 'resale': 7855, 'resale_profitable': 4214, 'resale_robust': 0}"}
+{"ts":"2026-09-16 11:06:52,979","level":"WARNING","logger":"collectors.base","msg":"source=steam status=429 (sem retry)"}
+{"ts":"2026-09-16 11:06:52,979","level":"ERROR","logger":"collectors.steam","msg":"source=steam 5 falhas consecutivas — IP provavelmente limitado (429) ou cookies em falta; run abortado"}
+{"ts":"2026-09-16 11:16:42,351","level":"INFO","logger":"collectors.base","msg":"source=skinport gravados=16056"}
+{"ts":"2026-09-16 11:16:52,411","level":"INFO","logger":"engine.opportunities","msg":"oportunidades recalculadas {'tradeups': 3000, 'tradeups_profitable': 241, 'tradeups_robust': 0, 'resale': 7855, 'resale_profitable': 4214, 'resale_robust': 0}"}
+{"ts":"2026-09-16 11:26:51,405","level":"INFO","logger":"engine.opportunities","msg":"oportunidades recalculadas {'tradeups': 3000, 'tradeups_profitable': 241, 'tradeups_robust': 0, 'resale': 7855, 'resale_profitable': 4224, 'resale_robust': 0}"}
+{"ts":"2026-09-16 11:36:39,646","level":"WARNING","logger":"collectors.base","msg":"source=steam status=429 (sem retry)"}
+{"ts":"2026-09-16 11:36:42,064","level":"INFO","logger":"collectors.base","msg":"source=skinport gravados=16052"}
+{"ts":"2026-09-16 11:36:42,651","level":"WARNING","logger":"collectors.base","msg":"source=steam status=429 (sem retry)"}
+{"ts":"2026-09-16 11:36:46,037","level":"WARNING","logger":"collectors.base","msg":"source=steam status=429 (sem retry)"}
+{"ts":"2026-09-16 11:36:49,567","level":"WARNING","logger":"collectors.base","msg":"source=steam status=429 (sem retry)"}
+{"ts":"2026-09-16 11:36:52,999","level":"INFO","logger":"engine.opportunities","msg":"oportunidades recalculadas {'tradeups': 3000, 'tradeups_profitable': 241, 'tradeups_robust': 0, 'resale': 7855, 'resale_profitable': 4224, 'resale_robust': 0}"}
+{"ts":"2026-09-16 11:36:53,044","level":"WARNING","logger":"collectors.base","msg":"source=steam status=429 (sem retry)"}
+{"ts":"2026-09-16 11:36:53,044","level":"ERROR","logger":"collectors.steam","msg":"source=steam 5 falhas consecutivas — IP provavelmente limitado (429) ou cookies em falta; run abortado"}
+{"ts":"2026-09-16 11:46:53,117","level":"INFO","logger":"engine.opportunities","msg":"oportunidades recalculadas {'tradeups': 3000, 'tradeups_profitable': 241, 'tradeups_robust': 0, 'resale': 7855, 'resale_profitable': 4224, 'resale_robust': 0}"}
+{"ts":"2026-09-16 11:56:42,284","level":"INFO","logger":"collectors.base","msg":"source=skinport gravados=16050"}
+{"ts":"2026-09-16 11:56:54,244","level":"INFO","logger":"engine.opportunities","msg":"oportunidades recalculadas {'tradeups': 3000, 'tradeups_profitable': 241, 'tradeups_robust': 0, 'resale': 7855, 'resale_profitable': 4224, 'resale_robust': 0}"}
+{"ts":"2026-09-16 12:06:39,472","level":"WARNING","logger":"collectors.base","msg":"source=steam status=429 (sem retry)"}
+{"ts":"2026-09-16 12:06:42,538","level":"WARNING","logger":"collectors.base","msg":"source=steam status=429 (sem retry)"}
+{"ts":"2026-09-16 12:06:46,046","level":"WARNING","logger":"collectors.base","msg":"source=steam status=429 (sem retry)"}
+{"ts":"2026-09-16 12:06:49,564","level":"WARNING","logger":"collectors.base","msg":"source=steam status=429 (sem retry)"}
+{"ts":"2026-09-16 12:06:53,062","level":"WARNING","logger":"collectors.base","msg":"source=steam status=429 (sem retry)"}
+{"ts":"2026-09-16 12:06:53,062","level":"ERROR","logger":"collectors.steam","msg":"source=steam 5 falhas consecutivas — IP provavelmente limitado (429) ou cookies em falta; run abortado"}
+{"ts":"2026-09-16 12:06:53,423","level":"INFO","logger":"engine.opportunities","msg":"oportunidades recalculadas {'tradeups': 3000, 'tradeups_profitable': 240, 'tradeups_robust': 0, 'resale': 7855, 'resale_profitable': 4220, 'resale_robust': 0}"}
+{"ts":"2026-09-16 12:16:42,131","level":"INFO","logger":"collectors.base","msg":"source=skinport gravados=16048"}
+{"ts":"2026-09-16 12:16:54,439","level":"INFO","logger":"engine.opportunities","msg":"oportunidades recalculadas {'tradeups': 3000, 'tradeups_profitable': 240, 'tradeups_robust': 0, 'resale': 7855, 'resale_profitable': 4220, 'resale_robust': 0}"}
+{"ts":"2026-09-16 12:26:53,851","level":"INFO","logger":"engine.opportunities","msg":"oportunidades recalculadas {'tradeups': 3000, 'tradeups_profitable': 241, 'tradeups_robust': 0, 'resale': 7855, 'resale_profitable': 4231, 'resale_robust': 0}"}
+{"ts":"2026-09-16 12:36:39,691","level":"WARNING","logger":"collectors.base","msg":"source=steam status=429 (sem retry)"}
+{"ts":"2026-09-16 12:36:42,569","level":"WARNING","logger":"collectors.base","msg":"source=steam status=429 (sem retry)"}
+{"ts":"2026-09-16 12:36:42,636","level":"INFO","logger":"collectors.base","msg":"source=skinport gravados=16050"}
+{"ts":"2026-09-16 12:36:46,044","level":"WARNING","logger":"collectors.base","msg":"source=steam status=429 (sem retry)"}
+{"ts":"2026-09-16 12:36:49,541","level":"WARNING","logger":"collectors.base","msg":"source=steam status=429 (sem retry)"}
+{"ts":"2026-09-16 12:36:53,053","level":"WARNING","logger":"collectors.base","msg":"source=steam status=429 (sem retry)"}
+{"ts":"2026-09-16 12:36:53,053","level":"ERROR","logger":"collectors.steam","msg":"source=steam 5 falhas consecutivas — IP provavelmente limitado (429) ou cookies em falta; run abortado"}
+{"ts":"2026-09-16 12:36:54,703","level":"INFO","logger":"engine.opportunities","msg":"oportunidades recalculadas {'tradeups': 3000, 'tradeups_profitable': 241, 'tradeups_robust': 0, 'resale': 7855, 'resale_profitable': 4231, 'resale_robust': 0}"}
+{"ts":"2026-09-16 12:46:53,946","level":"INFO","logger":"engine.opportunities","msg":"oportunidades recalculadas {'tradeups': 3000, 'tradeups_profitable': 241, 'tradeups_robust': 0, 'resale': 7855, 'resale_profitable': 4229, 'resale_robust': 0}"}
+{"ts":"2026-09-16 12:56:42,093","level":"INFO","logger":"collectors.base","msg":"source=skinport gravados=16050"}
+{"ts":"2026-09-16 12:56:54,882","level":"INFO","logger":"engine.opportunities","msg":"oportunidades recalculadas {'tradeups': 3000, 'tradeups_profitable': 241, 'tradeups_robust': 0, 'resale': 7855, 'resale_profitable': 4229, 'resale_robust': 0}"}
+{"ts":"2026-09-16 13:06:39,541","level":"WARNING","logger":"collectors.base","msg":"source=steam status=429 (sem retry)"}
+{"ts":"2026-09-16 13:06:42,556","level":"WARNING","logger":"collectors.base","msg":"source=steam status=429 (sem retry)"}
+{"ts":"2026-09-16 13:06:46,060","level":"WARNING","logger":"collectors.base","msg":"source=steam status=429 (sem retry)"}
+{"ts":"2026-09-16 13:06:49,931","level":"WARNING","logger":"collectors.base","msg":"source=steam status=429 (sem retry)"}
+{"ts":"2026-09-16 13:06:53,086","level":"WARNING","logger":"collectors.base","msg":"source=steam status=429 (sem retry)"}
+{"ts":"2026-09-16 13:06:53,087","level":"ERROR","logger":"collectors.steam","msg":"source=steam 5 falhas consecutivas — IP provavelmente limitado (429) ou cookies em falta; run abortado"}
+{"ts":"2026-09-16 13:06:54,201","level":"INFO","logger":"engine.opportunities","msg":"oportunidades recalculadas {'tradeups': 3000, 'tradeups_profitable': 238, 'tradeups_robust': 0, 'resale': 7855, 'resale_profitable': 4219, 'resale_robust': 0}"}
+{"ts":"2026-09-16 13:16:42,223","level":"INFO","logger":"collectors.base","msg":"source=skinport gravados=16048"}
+{"ts":"2026-09-16 13:16:55,124","level":"INFO","logger":"engine.opportunities","msg":"oportunidades recalculadas {'tradeups': 3000, 'tradeups_profitable': 238, 'tradeups_robust': 0, 'resale': 7855, 'resale_profitable': 4219, 'resale_robust': 0}"}
+{"ts":"2026-09-16 13:26:54,135","level":"INFO","logger":"engine.opportunities","msg":"oportunidades recalculadas {'tradeups': 3000, 'tradeups_profitable': 239, 'tradeups_robust': 0, 'resale': 7855, 'resale_profitable': 4227, 'resale_robust': 0}"}
+{"ts":"2026-09-16 13:36:39,677","level":"WARNING","logger":"collectors.base","msg":"source=steam status=429 (sem retry)"}
+{"ts":"2026-09-16 13:36:42,385","level":"INFO","logger":"collectors.base","msg":"source=skinport gravados=16050"}
+{"ts":"2026-09-16 13:36:42,590","level":"WARNING","logger":"collectors.base","msg":"source=steam status=429 (sem retry)"}
+{"ts":"2026-09-16 13:36:46,071","level":"WARNING","logger":"collectors.base","msg":"source=steam status=429 (sem retry)"}
+{"ts":"2026-09-16 13:36:49,578","level":"WARNING","logger":"collectors.base","msg":"source=steam status=429 (sem retry)"}
+{"ts":"2026-09-16 13:36:53,069","level":"WARNING","logger":"collectors.base","msg":"source=steam status=429 (sem retry)"}
+{"ts":"2026-09-16 13:36:53,069","level":"ERROR","logger":"collectors.steam","msg":"source=steam 5 falhas consecutivas — IP provavelmente limitado (429) ou cookies em falta; run abortado"}
+{"ts":"2026-09-16 13:36:55,375","level":"INFO","logger":"engine.opportunities","msg":"oportunidades recalculadas {'tradeups': 3000, 'tradeups_profitable': 239, 'tradeups_robust': 0, 'resale': 7855, 'resale_profitable': 4227, 'resale_robust': 0}"}
+{"ts":"2026-09-16 13:46:54,880","level":"INFO","logger":"engine.opportunities","msg":"oportunidades recalculadas {'tradeups': 3000, 'tradeups_profitable': 239, 'tradeups_robust': 0, 'resale': 7855, 'resale_profitable': 4231, 'resale_robust': 0}"}

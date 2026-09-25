@@ -1,0 +1,153 @@
+{% extends "base.html" %}
+{% block content %}
+
+<section class="stats">
+  <div class="chip"><span class="chip-num" id="stat-opp">{{ tradeup_total }}</span><span class="chip-label">trade-ups</span></div>
+  <div class="chip"><span class="chip-num accent" id="stat-robust">{{ tradeup_robust_total }}</span><span class="chip-label">robustos</span></div>
+  <div class="chip"><span class="chip-num" id="stat-resale">{{ resale_profitable_total }}</span><span class="chip-label">revendas +EV</span></div>
+  <div class="chip"><span class="chip-num">{{ items_count }}</span><span class="chip-label">itens</span></div>
+  <div class="chip"><span class="chip-num">{{ prices_count }}</span><span class="chip-label">leituras</span></div>
+  <div class="chip"><span class="chip-num small" title="{{ last_compute or '' }}">{{ last_compute[:16].replace('T',' ') if last_compute else '—' }}</span><span class="chip-label">última computação (UTC)</span></div>
+</section>
+
+<section class="controls">
+  <div class="tabs" role="tablist">
+    <button class="tab active" data-tab="tradeups" role="tab">Trade-ups</button>
+    <button class="tab" data-tab="resale" role="tab">Revenda</button>
+  </div>
+  <div class="filters">
+    <label class="check"><input type="checkbox" id="robust-chk" {% if f_robust %}checked{% endif %}> só robustas</label>
+    <label class="min-ev">EV mín.
+      <input type="number" id="min-ev" step="1" min="0" value="{{ f_min_ev or '' }}" placeholder="0">
+    </label>
+    <label class="min-ev">Preço máx.
+      <input type="number" id="max-cost" step="1" min="0" value="{{ f_max_cost or '' }}" placeholder="∞">
+    </label>
+    <div class="presets">
+      <button class="btn tiny preset" data-max="2">2€</button>
+      <button class="btn tiny preset" data-max="3">3€</button>
+      <button class="btn tiny preset" data-max="5">5€</button>
+      <button class="btn tiny preset" data-max="10">10€</button>
+      <button class="btn tiny preset" data-max="25">25€</button>
+      <button class="btn tiny preset" data-max="100">100€</button>
+      <button class="btn tiny preset" data-max="">∞</button>
+    </div>
+    <div class="actions">
+      <button class="btn" id="btn-compute" title="Recalcular EV com os preços atuais">↻ Recalcular</button>
+      <button class="btn" data-collect="skinport" title="Skinport (bulk, sem chave)">Skinport</button>
+      <button class="btn" data-collect="csfloat" title="CSFloat (requer chave de API)">CSFloat</button>
+      <button class="btn" data-collect="dmarket" title="DMarket (requer chaves de API)">DMarket</button>
+      <button class="btn" data-collect="steam" title="Steam priceoverview (requer cookies; lado da venda)">Steam</button>
+    </div>
+  </div>
+</section>
+
+<section id="sec-tradeups">
+  <div class="table-wrap">
+    <table class="tbl">
+      <thead>
+        <tr>
+          <th>#</th><th>Mix de coleções</th><th>Output provável</th>
+          <th class="num">Custo</th><th class="num">EV líquido</th><th class="num">ROI</th>
+          <th class="num">σ {{ '30' }}d</th><th>Estado</th><th></th>
+        </tr>
+      </thead>
+      <tbody>
+        {% for t in tradeups[:100] %}
+        <tr class="row-main" data-ev="{{ t.ev_net }}" data-robust="{{ 1 if t.robust else 0 }}" data-cost="{{ t.cost }}">
+          <td data-label="#">{{ loop.index }}</td>
+          <td data-label="Mix">{{ t.mix }}<span class="sub">{{ t.rarity }} →</span></td>
+          <td data-label="Output">{{ t.top_output }} <span class="sub">{{ (t.top_output_prob*100)|round(0)|int }}%</span></td>
+          <td data-label="Custo" class="num">{{ money(t.cost) }}</td>
+          <td data-label="EV líquido" class="num {{ 'pos' if t.ev_net > 0 else 'neg' }}">{{ money(t.ev_net) }}</td>
+          <td data-label="ROI" class="num {{ 'pos' if t.ev_net > 0 else 'neg' }}">{{ pct(t.roi_pct) }}</td>
+          <td data-label="σ" class="num">{{ money(t.risk_sd) }}</td>
+          <td data-label="Estado">
+            {% if t.robust %}<span class="badge badge-robust">robusto</span>
+            {% elif not t.enough_data %}<span class="badge badge-warn">dados insuf.</span>
+            {% else %}<span class="badge badge-soft">volátil</span>{% endif %}
+          </td>
+          <td><button class="btn tiny row-toggle">▾</button></td>
+        </tr>
+        <tr class="row-detail" hidden>
+          <td colspan="9">
+            <div class="detail-grid">
+              <div>
+                <h4>Inputs (10)</h4>
+                <ul class="list">
+                  {% for i in t.inputs %}
+                  <li>
+                    <span class="li-name">{{ i.name }}</span>
+                    <span class="li-meta">{{ money(i.price) }} · {{ src_label(i.source) }}{% if i.float_value %} · f={{ '%.4f'|format(i.float_value) }}{% endif %}</span>
+                    <a class="btn-buy" href="{{ buy_link(i.source, i.name) }}" target="_blank" rel="noopener noreferrer">Comprar</a>
+                  </li>
+                  {% endfor %}
+                </ul>
+              </div>
+              <div>
+                <h4>Distribuição de output</h4>
+                <ul class="list">
+                  {% for d in t.distribution[:8] %}
+                  <li>
+                    <span class="li-name">{{ d.name }} <span class="wear">{{ wear_short(d.wear) }}</span></span>
+                    <span class="li-meta">{{ (d.prob*100)|round(1) }}% · {{ money(d.net) }}</span>
+                    {% if d.source %}<a class="btn-buy ghost" href="{{ buy_link(d.source, d.name) }}" target="_blank" rel="noopener noreferrer">ver</a>{% endif %}
+                  </li>
+                  {% endfor %}
+                </ul>
+                <p class="sub-note">Regra de robustez: {{ t.robust_rule }} · cobertura de histórico {{ (t.risk_coverage*100)|round(0)|int }}%</p>
+              </div>
+            </div>
+          </td>
+        </tr>
+        {% else %}
+        <tr><td colspan="9" class="empty">Sem dados ainda. Corre <code>seed.py</code>, importa itens
+          (<code>python -m data.importer</code>) e recolhe preços (botões acima).</td></tr>
+        {% endfor %}
+      </tbody>
+    </table>
+  </div>
+</section>
+
+<section id="sec-resale" hidden>
+  <div class="table-wrap">
+    <table class="tbl">
+      <thead>
+        <tr>
+          <th>#</th><th>Item</th><th>Comprar em</th><th class="num">Preço compra</th>
+          <th>Vender em</th><th class="num">Venda (líq.)</th><th class="num">Lucro</th><th class="num">ROI</th>
+          <th class="num">σ</th><th>Estado</th><th></th>
+        </tr>
+      </thead>
+      <tbody>
+        {% for r in resale[:100] %}
+        <tr data-ev="{{ r.ev_net }}" data-robust="{{ 1 if r.robust else 0 }}" data-cost="{{ r.buy_price }}">
+          <td data-label="#">{{ loop.index }}</td>
+          <td data-label="Item">{{ r.name }}</td>
+          <td data-label="Comprar em"><span class="src">{{ src_label(r.buy_source) }}</span></td>
+          <td data-label="Preço compra" class="num">{{ money(r.buy_price) }}</td>
+          <td data-label="Vender em"><span class="src">{{ src_label(r.sell_source) }}</span></td>
+          <td data-label="Venda líq." class="num">{{ money(r.sell_net) }}</td>
+          <td data-label="Lucro" class="num {{ 'pos' if r.ev_net > 0 else 'neg' }}">{{ money(r.ev_net) }}</td>
+          <td data-label="ROI" class="num {{ 'pos' if r.ev_net > 0 else 'neg' }}">{{ pct(r.roi_pct) }}</td>
+          <td data-label="σ" class="num">{{ money(r.risk_sd) }}</td>
+          <td data-label="Estado">
+            {% if r.robust %}<span class="badge badge-robust">robusto</span>
+            {% elif not r.enough_data %}<span class="badge badge-warn">dados insuf.</span>
+            {% else %}<span class="badge badge-soft">volátil</span>{% endif %}
+          </td>
+          <td><a class="btn-buy" href="{{ buy_link(r.buy_source, r.name) }}" target="_blank" rel="noopener noreferrer">Comprar</a></td>
+        </tr>
+        {% else %}
+        <tr><td colspan="11" class="empty">Sem revendas — é preciso o mesmo item em ≥2 fontes
+          (compra: Skinport/CSFloat/DMarket; venda: Steam ou outra fonte).
+          As chaves de API vão no <code>.env</code> (ver README).</td></tr>
+        {% endfor %}
+      </tbody>
+    </table>
+  </div>
+</section>
+
+<p class="disclaimer">⚠ Robusto = EV ≥ 2×σ (ajustável em <code>.env</code>). Estimativa estatística —
+não é garantia de lucro; o lock de 7 dias pode comer a margem.</p>
+{% endblock %}

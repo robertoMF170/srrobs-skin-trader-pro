@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{% block title %}{{ APP_NAME }}{% endblock %}</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/theme.css') }}">
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="{{ url_for('dashboard') }}">
+      <span class="brand-dot"></span> {{ APP_NAME }}
+    </a>
+    <nav class="nav">
+      <a href="{{ url_for('dashboard') }}" class="{{ 'active' if request.endpoint == 'dashboard' }}">Dashboard</a>
+      <a href="{{ url_for('positions_page') }}" class="{{ 'active' if request.endpoint == 'positions_page' }}">Posições</a>
+      <a href="{{ url_for('items_page') }}" class="{{ 'active' if request.endpoint == 'items_page' }}">Itens</a>
+    </nav>
+  </header>
+
+  <main class="container">
+    {% block content %}{% endblock %}
+  </main>
+
+  <footer class="footer">
+    <p>{{ APP_NAME }} — ferramenta estatística de apoio à decisão. EV e robustez são
+    <strong>estimativas</strong>, não garantias: os preços podem mover-se durante o lock de 7 dias.
+    A compra é sempre manual, na fonte, numa nova aba.</p>
+  </footer>
+
+  <div id="toast" class="toast" hidden></div>
+  <script src="{{ url_for('static', filename='js/app.js') }}"></script>
+</body>
+</html>

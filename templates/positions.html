@@ -1,0 +1,84 @@
+{% extends "base.html" %}
+{% block title %}Posições — {{ APP_NAME }}{% endblock %}
+{% block content %}
+
+<section class="panel">
+  <h2>Registar compra</h2>
+  <form class="form-add" method="post" action="{{ url_for('positions_add') }}">
+    <input type="text" name="name" placeholder="AK-47 | Redline (Field-Tested)" required class="grow">
+    <select name="source" required>
+      <option value="skinport">Skinport</option>
+      <option value="csfloat">CSFloat</option>
+      <option value="dmarket">DMarket</option>
+    </select>
+    <input type="number" name="purchase_price" step="0.01" min="0" placeholder="Preço un. ({{ CURRENCY }})" required>
+    <input type="number" name="quantity" min="1" value="1" title="Quantidade">
+    <input type="datetime-local" name="purchased_at" title="Data/hora da compra (UTC); vazio = agora">
+    <input type="text" name="notes" placeholder="Notas (opcional)" class="grow">
+    <button class="btn-buy" type="submit">Adicionar</button>
+  </form>
+</section>
+
+<section>
+  <div class="table-wrap">
+    <table class="tbl" id="positions-table">
+      <thead>
+        <tr>
+          <th>Item</th><th>Qtd</th><th class="num">Custo</th><th>Fonte</th>
+          <th>Comprado (UTC)</th><th>Trade lock</th><th>Estado</th>
+          <th class="num">Valor atual (líq.)</th><th class="num">Lucro</th><th>Sugestão</th><th></th>
+        </tr>
+      </thead>
+      <tbody>
+        {% for p in positions %}
+        <tr data-lockuntil="{{ p.trade_lock_until }}" data-status="{{ p.status }}">
+          <td data-label="Item">{{ p.name }}{% if p.notes %}<span class="sub">{{ p.notes }}</span>{% endif %}</td>
+          <td data-label="Qtd">{{ p.quantity }}</td>
+          <td data-label="Custo" class="num">{{ money(p.cost_total) }}</td>
+          <td data-label="Fonte"><span class="src">{{ p.source }}</span></td>
+          <td data-label="Comprado" class="mono">{{ p.purchased_at[:16].replace('T',' ') }}</td>
+          <td data-label="Trade lock" class="countdown mono" data-lockuntil="{{ p.trade_lock_until }}">
+            {% if p.status in ('locked',) %}…{% elif p.status == 'ready' %}expirado{% else %}—{% endif %}
+          </td>
+          <td data-label="Estado">
+            {% if p.status == 'locked' %}<span class="badge badge-soft">🔒 lock</span>
+            {% elif p.status == 'ready' %}<span class="badge badge-robust">pronto</span>
+            {% elif p.status == 'sold' %}<span class="badge badge-sold">vendido</span>
+            {% elif p.status == 'retraded' %}<span class="badge badge-warn">re-tradeado</span>
+            {% else %}<span class="badge badge-soft">segurar</span>{% endif %}
+          </td>
+          <td data-label="Valor atual" class="num">{{ money(p.current_net) }}{% if p.current_source %}<span class="sub">{{ p.current_source }}</span>{% endif %}</td>
+          <td data-label="Lucro" class="num {{ 'pos' if p.current_profit and p.current_profit > 0 else ('neg' if p.current_profit else '') }}">{{ money(p.current_profit) }}</td>
+          <td data-label="Sugestão">
+            {% if p.suggestion == 'vender' %}<span class="sug sug-sell">vender</span>
+            {% elif p.suggestion == 'tradear' %}<span class="sug sug-trade">tradear</span>
+            {% elif p.suggestion == 'segurar' %}<span class="sug sug-hold">segurar</span>
+            {% elif p.suggestion == 'aguardar_lock' %}<span class="sug sug-hold">aguardar</span>
+            {% else %}—{% endif %}
+          </td>
+          <td class="row-actions">
+            {% if p.status in ('locked','ready') %}
+            <form method="post" action="{{ url_for('positions_status', pos_id=p.id, action='sold') }}" class="inline">
+              <input type="number" name="sold_price" step="0.01" min="0" placeholder="P. venda" class="tiny-input">
+              <button class="btn tiny" type="submit">vendido</button>
+            </form>
+            <form method="post" action="{{ url_for('positions_status', pos_id=p.id, action='retraded') }}" class="inline">
+              <button class="btn tiny" type="submit">re-trade</button>
+            </form>
+            {% endif %}
+            <form method="post" action="{{ url_for('positions_delete', pos_id=p.id) }}" class="inline">
+              <button class="btn tiny danger" type="submit">✕</button>
+            </form>
+          </td>
+        </tr>
+        {% else %}
+        <tr><td colspan="11" class="empty">Sem posições. Regista uma compra acima para começar a contar o lock de 7 dias.</td></tr>
+        {% endfor %}
+      </tbody>
+    </table>
+  </div>
+</section>
+
+<p class="disclaimer">🔒 Trade lock de 7 dias conta desde a compra. Sugestões (vender / tradear / segurar)
+usam o preço atual líquido vs. custo e a presença do item em trade-ups com EV positivo.</p>
+{% endblock %}
